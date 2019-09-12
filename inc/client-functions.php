@@ -31,7 +31,7 @@ if (!function_exists('c9_client_scripts')) {
         //wp_enqueue_style('c9-megamenu', get_stylesheet_directory_uri() . '/client/client-assets/vendor/megamenu.css', array('c9-styles'));
     }
 } // endif function_exists( 'client_scripts' ).
-add_action('wp_enqueue_scripts', 'c9-client_scripts', 2);
+add_action('wp_enqueue_scripts', 'c9_client_scripts', 2);
 
 /* add client compiled files to gutenberg editor */
 if (!function_exists('c9_client_editor_style')) {
