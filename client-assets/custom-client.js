@@ -2,7 +2,7 @@ jQuery(document).ready(function() {
   (function($) {
     // add any css classes you don't want to be smoothState-d here
     var notSmooth =
-      '.nav-search, btn-nav-search, .btn-nav-search, .search-close, .mega-menu-item-has-children .mega-menu-link, .wp-block-gallery a[href$=".jpg"], .wp-block-gallery a[href$=".jpeg"], .wp-block-gallery a[href$=".png"], .wp-block-gallery a[href$=".gif, "], .cortex-popup';
+      '.nav-search, .btn-nav-search, .search-close, .mega-menu-item-has-children .mega-menu-link, .wp-block-gallery a[href$=".jpg"], .wp-block-gallery a[href$=".jpeg"], .wp-block-gallery a[href$=".png"], .wp-block-gallery a[href$=".gif, "], .cortex-popup';
     var options = {
         prefetch: true,
         cacheLength: 2,
