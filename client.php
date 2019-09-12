@@ -8,6 +8,7 @@
 require get_template_directory() . '/client/inc/client-functions.php';
 
 add_filter( 'acf/settings/save_json', 'my_acf_json_save_point' );
+
 /**
  * Change default location for custom fields to be saved
  */
@@ -19,6 +20,7 @@ function my_acf_json_save_point( $path ) {
 }
 
 add_filter( 'acf/settings/load_json', 'my_acf_json_load_point' );
+
 /**
  * Change default location for custom fields to be loaded.
  */
