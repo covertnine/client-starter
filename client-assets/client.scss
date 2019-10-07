@@ -451,16 +451,6 @@ p {
   margin: 15px 0px;
 }
 
-.entry-content ul:not(.wp-block-gallery) li:before,
-.editor-styles-wrapper .editor-rich-text ul:not(.wp-block-gallery) li:before {
-  content: " ";
-  display: inline;
-  margin-left: -45px;
-  padding-left: 45px;
-  line-height: 2;
-  background-size: 25px 25px;
-}
-
 /* horizontal rules customized*/
 .entry-content .wp-block-column .wp-block-separator.is-style-wide,
 .wp-block-columns .wp-block-separator.is-style-wide {
