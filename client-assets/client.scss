@@ -274,8 +274,8 @@ p {
 
 .entry-content ol li,
 .editor-styles-wrapper .editor-rich-text ol li,
-.entry-content ul:not(.wp-block-gallery) li,
-.editor-styles-wrapper .editor-rich-text ul:not(.wp-block-gallery) li {
+.entry-content ul:not(.wp-block-gallery):not(.nav-tabs):not(.c9-share-list) li,
+.editor-styles-wrapper .editor-rich-text ul:not(.wp-block-gallery):not(.nav-tabs):not(.c9-share-list) li {
   margin: 15px 0px;
 }
 
