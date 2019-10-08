@@ -19,15 +19,6 @@ p {
 /****************************************************************************************/
 /* Client default colors, button colors + background colors */
 /****************************************************************************************/
-
-.has-color-green-color {
-  color: $primary !important;
-}
-
-.has-color-pink-color {
-  color: $secondary !important;
-}
-
 .has-color-white-color {
   color: $light !important;
 }
@@ -71,7 +62,7 @@ p {
 /****************************************************************************************/
 /* Client buttons */
 /****************************************************************************************/
-.cortextoo button,
+.c9 button,
 .btn,
 #topnav input[type="submit"],
 .wp-block-button__link,
@@ -80,7 +71,6 @@ p {
 .editor-styles-wrapper .mce-content-body.button,
 .editor-styles-wrapper .wp-block-button__link {
   text-transform: uppercase;
-  border-radius: 34px;
   font-weight: 500;
 }
 
@@ -88,7 +78,7 @@ p {
 .editor-styles-wrapper .button,
 .editor-styles-wrapper .button-primary,
 .editor-styles-wrapper .mce-content-body.button,
-.cortextoo button,
+.c9 button,
 .entry-content .btn,
 .entry-content .btn:visited,
 .entry-content button,
@@ -104,20 +94,7 @@ p {
   font-family: $font-family-base;
 }
 
-.btn-secondary,
-.cortextoo .entry-content .btn-secondary {
-  background-color: $secondary;
-}
-
-.btn-signup .wp-block-button__link:before {
-  display: inline;
-  content: "\f005";
-  font: normal normal normal 1.4rem/1 FontAwesome;
-  color: #fff;
-  padding-right: 8px;
-}
-
-.cortextoo button:hover,
+.c9 button:hover,
 .btn:hover,
 .wp-block-button__link:hover,
 .editor-styles-wrapper .button:hover,
@@ -246,168 +223,19 @@ p {
 /* Client Typography */
 /****************************************************************************************/
 .entry-content,
-.editor-styles-wrapper p,
-.editor-styles-wrapper .container p,
-.editor-styles-wrapper .editor-rich-text .mce-content-body p,
-.editor-styles-wrapper .wp-block-paragraph,
-.editor-styles-wrapper .wp-block-quote p,
-.editor-styles-wrapper .wp-block-file,
 .wp-block-pullquote,
 .wp-block-pullquote blockquote p,
 .editor-default-block-appender textarea.editor-default-block-appender__content,
 #wrapper-footer {
-  font-size: 2rem;
-  word-wrap: break-word;
   font-family: $font-family-base;
-}
-
-/* Responsive Typography */
-@media only screen and (max-width: 575px) {
-
-  .entry-content p[class$="-font-size"] {
-    line-height: 1;
-  }
-}
-
-@media only screen and (min-width: 1px) {
-
-  /* section heading accents */
-  .editor-styles-wrapper .editor-rich-text .section-heading-accent,
-  .section-heading-accent,
-  .editor-styles-wrapper .editor-rich-text .section-heading-accent-alt,
-  .section-heading-accent-alt,
-  .entry-content .section-heading-accent-alt,
-  .entry-content h3.section-heading-accent,
-  .entry-content h3.section-heading-accent-alt {
-    margin: 10px auto;
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: 0.08rem;
-    text-align: center;
-    text-transform: uppercase;
-    color: $dark;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-
-  /* subheadings */
-  .entry-content .subheading1,
-  .entry-content .subheading2,
-  .entry-content .subheading3,
-  .entry-content .subheading4,
-  .entry-content .subheading5,
-  .wp-block-heading .subheading1,
-  .wp-block-heading .subheading2,
-  .wp-block-heading .subheading3,
-  .wp-block-heading .subheading4,
-  .wp-block-heading .subheading5 {
-    font-weight: 400;
-    font-size: 2.6rem;
-    letter-spacing: 0.055rem;
-  }
-
-  .entry-content .subheading2,
-  .wp-block-heading .subheading2,
-  .subheading2 {
-    font-weight: 500;
-    font-size: 2.3rem;
-    letter-spacing: 0.12rem;
-  }
-
-  .entry-content .subheading3,
-  .wp-block-heading .subheading3,
-  .subheading3 {
-    font-weight: 100;
-    font-size: 2rem;
-    letter-spacing: 0.05rem;
-    text-transform: uppercase;
-    line-height: 1.2;
-  }
-
-  .entry-content .subheading4,
-  .wp-block-heading .subheading4,
-  .subheading4 {
-    font-size: 1.6rem;
-    letter-spacing: 0.001rem;
-  }
-
-  .entry-content .subheading5,
-  .wp-block-heading .subheading5,
-  .subheading5 {
-    font-size: 1.4rem;
-    letter-spacing: 0.125rem;
-    font-weight: $font-weight-normal;
-  }
-
-  .icon-label,
-  .entry-content .icon-label,
-  .wp-block-heading .icon-label {
-    text-transform: uppercase;
-    font-weight: $font-weight-bold;
-    font-size: 1.8rem !important;
-    letter-spacing: 0.2rem;
-    line-height: 1.1;
-  }
-
-  .entry-meta,
-  .entry-meta a {
-    text-transform: uppercase;
-    letter-spacing: 0.05rem;
-    line-height: 1;
-    font-size: 1.4rem;
-    color: $gray-700;
-  }
-
-  .entry-footer .comments-link {
-    display: block;
-    text-align: right;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-  }
-
-  /* WordPress Gutenberg Font Sizes */
-  .has-small-font-size {
-    font-size: 1.4rem !important;
-    line-height: 1.5 !important;
-    letter-spacing: 0.125rem;
-  }
 }
 
 /****************************************************************************************/
 /* Client page title header on logins, search, pages, posts, etc. */
 /****************************************************************************************/
-.page-template-fullwidthpage .cortextoo .entry-header,
-.container-width-page-wrapper.cortextoo .page .entry-header {
-  background-color: $primary;
-}
-
-.cortextoo .entry-header {
-  margin-bottom: 20px;
-}
-
-.page-search-results .home-search .entry-title {
-  color: $light;
-  font-size: 5rem;
-  line-height: 1;
-  letter-spacing: 0.12rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-top: 80px;
-}
-
-.page-search-results .header-container-search {
-  min-height: 36vh;
-  background: transparent url(/wp-content/uploads/2019/03/bg-tile-talent-dark.jpg) top left repeat;
-  background-size: 80%;
-  background-attachment: scroll;
-  background-blend-mode: overlay;
-}
 
 @media only screen and (min-width: 1px) {
-  .cortextoo .page .entry-header h1 {
+  .c9 .page .entry-header h1 {
     font-size: 5rem;
     text-align: center;
     color: $light;
@@ -417,7 +245,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-  .cortextoo .page .entry-header h1 {
+  .c9 .page .entry-header h1 {
     font-size: 8rem;
   }
 }
@@ -502,32 +330,6 @@ p {
   font-weight: $font-weight-bold;
 }
 
-/* footer latest posts news */
-.c9-recent-posts .c9-article-title .entry-title {
-  font-size: 1.5rem;
-  color: $gray-800;
-}
-
-.c9-recent-posts .c9-article-title {
-  line-height: 1;
-}
-
-.c9-recent-posts .c9-article-title .c9-article-date {
-  font-size: 1.4rem;
-  line-height: 1;
-}
-
-/* social icons */
-.widget_cortex_subscribe_widget ul li {
-  display: inline-block;
-  margin: 0px 10px 0px 0px;
-  padding: 0px;
-}
-
-.widget_cortex_subscribe_widget ul li a:hover {
-  background-color: $secondary;
-}
-
 /****************************************************************************************/
 /* Client Gravity Forms */
 /****************************************************************************************/
@@ -536,8 +338,8 @@ p {
   float: left;
 }
 
-.cortextoo .ginput_container_creditcard label,
-.cortextoo .ginput_card_expiration_container label {
+.c9 .ginput_container_creditcard label,
+.c9 .ginput_card_expiration_container label {
   margin-bottom: 10px !important;
 }
 
@@ -547,12 +349,8 @@ p {
   clear: both;
 }
 
-.cortextoo .gform_wrapper .field_description_below .gfield_description {
+.c9 .gform_wrapper .field_description_below .gfield_description {
   padding-top: 0px;
-}
-
-.page-login .gform_login_widget {
-  margin-bottom: 60px;
 }
 
 /****************************************************************************************/
