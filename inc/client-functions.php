@@ -52,3 +52,17 @@ if ( ! function_exists( 'c9_client_setup' ) ) {
 		);
 	}
 }
+
+add_filter( 'nav_menu_link_attributes', 'c9_add_smooth_class', 10, 4 );
+
+if ( ! function_exists( 'c9_add_smooth_class' ) ) {
+	/**
+	 * Add c9-smooth class to menu items
+	 */
+	function c9_add_smooth_class( $atts ) {
+
+			$atts['class'] .= ' c9-smooth';
+
+			return $atts;
+	}
+}
