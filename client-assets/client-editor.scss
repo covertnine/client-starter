@@ -3,10 +3,13 @@
 /****************************************************************************************/
 @import "client_variables";
 
-.editor-styles-wrapper,
+body .editor-styles-wrapper {
+  font-size: 10px;
+}
+
 .wp-block-pullquote blockquote>.block-library-pullquote__content .editor-rich-text__tinymce[data-is-empty="true"]::before,
 .wp-block-pullquote blockquote>.editor-rich-text p {
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .editor-styles-wrapper div,
@@ -16,7 +19,7 @@
 
 .editor-styles-wrapper ul li,
 .editor-styles-wrapper ol li {
-  font-size: 1.6rem;
+  font-size: 1.6em;
   color: $gray-900;
 }
 
