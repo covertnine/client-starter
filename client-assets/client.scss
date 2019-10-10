@@ -99,8 +99,8 @@ body {
 
 /* tags */
 .i-tag {
-  font-size: 1.6rem;
-  letter-spacing: 0.137rem;
+  font-size: 1.6em;
+  letter-spacing: 0.137em;
 }
 
 .i-tag:before {
@@ -139,16 +139,14 @@ body {
 
 .navbar-nav li a {
   text-transform: uppercase;
-  font-size: 1.5rem;
   line-height: 1;
   color: rgba(43, 43, 43, 0.77);
-  letter-spacing: 0.09rem;
+  letter-spacing: 0.09em;
 }
 
 .nav-search,
 .nav-toggle {
   display: inline-block;
-  font-size: 2rem;
   line-height: 2;
 }
 
@@ -228,7 +226,7 @@ body {
 
 @media only screen and (min-width: 1px) {
   .c9 .page .entry-header h1 {
-    font-size: 5rem;
+    font-size: 5em;
     text-align: center;
     color: $light;
     margin: 70px auto;
@@ -238,7 +236,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .c9 .page .entry-header h1 {
-    font-size: 8rem;
+    font-size: 8em;
   }
 }
 
@@ -255,13 +253,13 @@ body {
 .entry-content ul:not(.wp-block-gallery),
 .editor-styles-wrapper .editor-rich-text ul:not(.wp-block-gallery) {
   list-style: none;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .entry-content ul:not(.wp-block-gallery) li,
 .editor-styles-wrapper .editor-rich-text ul:not(.wp-block-gallery) li {
   line-height: 1.6;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .entry-content ol li,
@@ -307,7 +305,7 @@ body {
 /* all widgets */
 .footer-widget .menu .menu-item,
 .footer-widget ul li {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   line-height: 2;
   text-transform: capitalize;
   padding-left: 0px;
@@ -315,8 +313,8 @@ body {
 }
 
 .footer-widget h3 {
-  font-size: 2.4rem;
-  letter-spacing: 0.115rem;
+  font-size: 2.4em;
+  letter-spacing: 0.115em;
   line-height: 1.8;
   color: $light;
   font-weight: $font-weight-bold;
