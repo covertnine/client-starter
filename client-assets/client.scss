@@ -66,6 +66,14 @@ body {
   padding: 12px 35px;
 }
 
+.footer-search-wrapper input[type="submit"] {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: $primary;
+  border-radius: 0px;
+}
+
 .btn,
 .editor-styles-wrapper .button,
 .editor-styles-wrapper .button-primary,
