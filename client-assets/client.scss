@@ -130,7 +130,7 @@ body {
 }
 
 .navbar {
-  padding: 5px 0px;
+  padding: 0px;
   background-color: $light;
 }
 
@@ -337,6 +337,12 @@ body {
 
 .c9 .gform_wrapper .field_description_below .gfield_description {
   padding-top: 0px;
+}
+
+.gform_wrapper .gsection .gfield_label,
+.gform_wrapper h2.gsection_title,
+.gform_wrapper h3.gform_title {
+  font-size: 2em;
 }
 
 /****************************************************************************************/
