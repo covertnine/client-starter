@@ -211,12 +211,6 @@ body {
 
 }
 
-@media only screen and (min-width: 992px) {
-  .nav-search {
-    display: none;
-  }
-}
-
 /****************************************************************************************/
 /* Client Typography */
 /****************************************************************************************/
@@ -233,6 +227,12 @@ body {
 /****************************************************************************************/
 
 @media only screen and (min-width: 1px) {
+
+  .page-template-containerwidthpage .c9 .page>.entry-header,
+  .page-template-fullwidthpage .c9 .page>.entry-header {
+    background-color: $primary;
+  }
+
   .c9 .page .entry-header h1 {
     font-size: 5em;
     text-align: center;
@@ -310,7 +310,7 @@ body {
 
 .footer-widget h3 {
   font-size: 2.4em;
-  letter-spacing: 0.115em;
+  letter-spacing: 0.02em;
   line-height: 1.8;
   color: $light;
   font-weight: $font-weight-bold;
