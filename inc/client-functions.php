@@ -18,10 +18,10 @@ if ( ! function_exists( 'client_scripts' ) ) {
 		wp_enqueue_style( 'client-styles', get_template_directory_uri() . '/client/client-assets/dist/client.min.css', array( 'c9-styles' ) );
 		wp_enqueue_style( 'client-styles', get_template_directory_uri() . '/client/client-assets/dist/client-editor.min.css', 99999999 );
 
-		wp_enqueue_script( 'smooth-state', get_template_directory_uri() . '/client/client-assets/vendor/jquery.smoothState.min.js', array( 'jquery' ), true );
+		//wp_enqueue_script( 'smooth-state', get_template_directory_uri() . '/client/client-assets/vendor/jquery.smoothState.min.js', array( 'jquery' ), true );
 
 		wp_enqueue_script( 'client-scripts', get_template_directory_uri() . '/client/client-assets/custom-client.js', array( 'jquery', 'smooth-state' ), true );
-		wp_enqueue_style( 'c9-megamenu', get_template_directory_uri() . '/client/client-assets/vendor/megamenu.css', array( 'c9-styles' ) );
+		//wp_enqueue_style( 'c9-megamenu', get_template_directory_uri() . '/client/client-assets/vendor/megamenu.css', array( 'c9-styles' ) );
 	}
 } // endif function_exists( 'client_scripts' ).
 add_action( 'wp_enqueue_scripts', 'client_scripts', 2 );
@@ -58,16 +58,16 @@ if ( ! function_exists( 'c9_client_setup' ) ) {
 	}
 }
 
-add_filter( 'nav_menu_link_attributes', 'c9_add_smooth_class', 10, 4 );
+// add_filter( 'nav_menu_link_attributes', 'c9_add_smooth_class', 10, 4 );
 
-if ( ! function_exists( 'c9_add_smooth_class' ) ) {
-	/**
-	 * Add c9-smooth class to menu items
-	 */
-	function c9_add_smooth_class( $atts ) {
+// if ( ! function_exists( 'c9_add_smooth_class' ) ) {
+// 	/**
+// 	 * Add c9-smooth class to menu items
+// 	 */
+// 	function c9_add_smooth_class( $atts ) {
 
-			$atts['class'] .= ' c9-smooth';
+// 			$atts['class'] .= ' c9-smooth';
 
-			return $atts;
-	}
-}
+// 			return $atts;
+// 	}
+// }
