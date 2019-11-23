@@ -373,3 +373,41 @@ body {
 /****************************************************************************************/
 /* Client Custom Blocks */
 /****************************************************************************************/
+
+/****************************************************************************************/
+/* Client WooCommerce */
+/****************************************************************************************/
+.woocommerce-page .site-main {
+  margin: 0px auto;
+}
+
+.woocommerce .site-main {
+  font-size: 16px;
+}
+
+.theme-c9.woocommerce nav.woocommerce-pagination ul li span,
+.theme-c9.woocommerce nav.woocommerce-pagination ul li .page-numbers {
+  font-size: 16px;
+}
+
+.woocommerce ul.products li.product .onsale {
+  box-sizing: content-box;
+}
+
+@media only screen and (min-width: 1200px) {
+  .woocommerce-page .site-main {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 667px) {
+  .woocommerce-page .site-main {
+    padding: 0px 30px;
+  }
+}
+
+@media only screen and (min-width: 1px) {
+  .woocommerce-page .site-main {
+    padding: 0px 15px;
+  }
+}
