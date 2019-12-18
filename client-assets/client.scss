@@ -211,10 +211,8 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .navbar-brand img {
-    width: 285px;
-    max-height: 92px;
-    height: auto;
+  .header-navbar .navbar-brand.c9-custom-logo>.c9-home-logo {
+    min-height: 92px;
   }
 
   .header-navbar {
