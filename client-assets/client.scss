@@ -4,51 +4,51 @@
 @import "client_variables";
 
 body {
-  color: $gray-900;
-  font-family: $font-family-base;
+	color: $gray-900;
+	font-family: $font-family-base;
 }
 
 /****************************************************************************************/
 /* Client default colors, button colors + background colors */
 /****************************************************************************************/
 .has-color-white-color {
-  color: $light !important;
+	color: $light !important;
 }
 
 .has-color-black-color {
-  color: $dark !important;
+	color: $dark !important;
 }
 
 .has-color-gray-color {
-  color: $gray-900 !important;
+	color: $gray-900 !important;
 }
 
 .bg-primary {
-  background-color: $primary;
+	background-color: $primary;
 }
 
 .bg-secondary {
-  background-color: $secondary;
+	background-color: $secondary;
 }
 
 .bg-success {
-  background-color: $success;
+	background-color: $success;
 }
 
 .bg-info {
-  background-color: $info;
+	background-color: $info;
 }
 
 .bg-warning {
-  background-color: $warning;
+	background-color: $warning;
 }
 
 .bg-danger {
-  background-color: $danger;
+	background-color: $danger;
 }
 
 .bg-dark {
-  background-color: $dark;
+	background-color: $dark;
 }
 
 /****************************************************************************************/
@@ -59,18 +59,17 @@ body {
 .c9 .wp-block-button__link,
 .editor-styles-wrapper .btn,
 .editor-styles-wrapper .wp-block-button__link {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.4em;
-  padding: 12px 35px;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 12px 35px;
 }
 
 .footer-search-wrapper input[type="submit"] {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  background-color: $primary;
-  border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
+	background-color: $primary;
+	border-radius: 0px;
 }
 
 .btn,
@@ -90,7 +89,7 @@ body {
 .wp-block-button:not(.is-style-outline) .wp-block-button__link.mce-content-body,
 .wp-block-file__button,
 .wp-block-file .wp-block-file__button {
-  font-family: $font-family-base;
+	font-family: $font-family-base;
 }
 
 .c9 button:hover,
@@ -100,22 +99,22 @@ body {
 .editor-styles-wrapper .btn:hover,
 .editor-styles-wrapper .mce-content-body.button:hover,
 .editor-styles-wrapper .wp-block-button__link:hover {
-  opacity: 0.8;
-  color: #fff;
+	opacity: 0.8;
+	color: #fff;
 }
 
 /* tags */
 .i-tag {
-  font-size: 1.6em;
-  letter-spacing: 0.137em;
+	font-size: 1.6em;
+	letter-spacing: 0.137em;
 }
 
 .i-tag:before {
-  display: inline;
-  content: "\f02b";
-  font: normal normal normal 1.4rem/1 FontAwesome;
-  color: $primary;
-  padding-right: 4px;
+	display: inline;
+	content: "\f02b";
+	font: normal normal normal 1.4rem/1 FontAwesome;
+	color: $primary;
+	padding-right: 4px;
 }
 
 
@@ -124,114 +123,114 @@ body {
 /****************************************************************************************/
 
 #wrapper-navbar {
-  z-index: 1020;
-  background-color: $light;
+	z-index: 1020;
+	background-color: $light;
 }
 
 .navbar {
-  padding: 0px;
-  background-color: $light;
+	padding: 0px;
+	background-color: $light;
 }
 
 .navbar-small {
-  -webkit-transition: opacity 0.4s ease-in-out;
-  transition: opacity 0.4s ease-in-out;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
 }
 
 .navbar-small .navbar-brand img {
-  max-height: 45px;
-  width: auto;
+	max-height: 45px;
+	width: auto;
 }
 
 .navbar-nav li a {
-  text-transform: uppercase;
-  line-height: 1;
-  color: rgba(43, 43, 43, 0.77);
-  letter-spacing: 0.05em;
+	text-transform: uppercase;
+	line-height: 1;
+	color: rgba(43, 43, 43, 0.77);
+	letter-spacing: 0.05em;
 }
 
 .nav-search,
 .nav-toggle {
-  display: inline-block;
-  line-height: 2;
+	display: inline-block;
+	line-height: 2;
 }
 
 .nav-search {
-  margin-right: 10px;
+	margin-right: 10px;
 }
 
 /* drop downs */
 .header-navbar .nav .nav-item .nav-link,
 .header-navbar .nav .nav-item .dropdown-item {
-  padding: 15px;
+	padding: 15px;
 }
 
 .header-navbar .nav .nav-item .dropdown-menu {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 32px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 32px;
 }
 
 @media only screen and (min-width: 1px) {
-  .header-navbar {
-    height: 55px;
-  }
+	.header-navbar {
+		height: 55px;
+	}
 
-  .navbar-collapse {
-    background-color: $light;
-  }
+	.navbar-collapse {
+		background-color: $light;
+	}
 
-  .navbar-brand img {
-    width: auto;
-    max-height: 45px;
-    height: auto;
-  }
+	.navbar-brand img {
+		width: auto;
+		max-height: 45px;
+		height: auto;
+	}
 
-  #page .navbar-small-mobile {
-    padding-bottom: 0px;
-  }
+	#page .navbar-small-mobile {
+		padding-bottom: 0px;
+	}
 
-  .navbar {
-    display: block;
-  }
+	.navbar {
+		display: block;
+	}
 
-  .navbar .container .navbar-small-buttons {
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-  }
+	.navbar .container .navbar-small-buttons {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
 
-  .btn-nav-search,
-  .navbar-toggler {
-    margin: 0px;
-    padding: 12px;
-  }
+	.btn-nav-search,
+	.navbar-toggler {
+		margin: 0px;
+		padding: 12px;
+	}
 }
 
 @media only screen and (min-width: 768px) {
-  .header-navbar .navbar-brand.c9-custom-logo>.c9-home-logo {
-    min-height: 92px;
-  }
+	.header-navbar .navbar-brand.c9-custom-logo>.c9-home-logo {
+		min-height: 92px;
+	}
 
-  .header-navbar {
-    height: 115px;
-  }
+	.header-navbar {
+		height: 115px;
+	}
 
 }
 
 @media only screen and (max-width: 991px) {
-  .header-navbar .nav .nav-item .dropdown-menu {
-    margin-top: 0px;
-    border: 1px solid transparent;
-  }
+	.header-navbar .nav .nav-item .dropdown-menu {
+		margin-top: 0px;
+		border: 1px solid transparent;
+	}
 }
 
 @media only screen and (min-width: 992px) {
-  .navbar-collapse {
-    background-color: transparent;
-  }
+	.navbar-collapse {
+		background-color: transparent;
+	}
 }
 
 /****************************************************************************************/
@@ -242,7 +241,7 @@ body {
 .wp-block-pullquote blockquote p,
 .editor-default-block-appender textarea.editor-default-block-appender__content,
 #wrapper-footer {
-  font-family: $font-family-base;
+	font-family: $font-family-base;
 }
 
 /****************************************************************************************/
@@ -251,24 +250,24 @@ body {
 
 @media only screen and (min-width: 1px) {
 
-  .page-template-containerwidthpage .c9 .page>.entry-header,
-  .page-template-fullwidthpage .c9 .page>.entry-header {
-    background-color: $primary;
-  }
+	.page-template-containerwidthpage .c9 .page>.entry-header,
+	.page-template-fullwidthpage .c9 .page>.entry-header {
+		background-color: $primary;
+	}
 
-  .c9 .page .entry-header h1 {
-    font-size: 5em;
-    text-align: center;
-    color: $light;
-    margin: 70px auto;
-    line-height: 1;
-  }
+	.c9 .page .entry-header h1 {
+		font-size: 5em;
+		text-align: center;
+		color: $light;
+		margin: 70px auto;
+		line-height: 1;
+	}
 }
 
 @media only screen and (min-width: 768px) {
-  .c9 .page .entry-header h1 {
-    font-size: 8em;
-  }
+	.c9 .page .entry-header h1 {
+		font-size: 8em;
+	}
 }
 
 /****************************************************************************************/
@@ -278,21 +277,21 @@ body {
 .entry-content ol,
 .editor-styles-wrapper .editor-rich-text ol,
 .editor-styles-wrapper .editor-rich-text ul:not(.wp-block-gallery) {
-  line-height: 2;
+	line-height: 2;
 }
 
 .entry-content ol li,
 .editor-styles-wrapper .editor-rich-text ol li,
 .entry-content ul:not(.wp-block-gallery):not(.nav-tabs):not(.c9-share-list) li,
 .editor-styles-wrapper .editor-rich-text ul:not(.wp-block-gallery):not(.nav-tabs):not(.c9-share-list) li {
-  margin: 6px 0px;
+	margin: 6px 0px;
 }
 
 /* horizontal rules customized*/
 .entry-content .wp-block-column .wp-block-separator.is-style-wide,
 .wp-block-columns .wp-block-separator.is-style-wide {
-  width: 60%;
-  max-width: 60%;
+	width: 60%;
+	max-width: 60%;
 }
 
 /****************************************************************************************/
@@ -300,21 +299,21 @@ body {
 /****************************************************************************************/
 
 #wrapper-footer-full {
-  background-color: $primary;
-  color: $light;
+	background-color: $primary;
+	color: $light;
 }
 
 #wrapper-footer {
-  background-color: $primary;
-  color: $light;
+	background-color: $primary;
+	color: $light;
 }
 
 #wrapper-footer-full a {
-  color: $light;
+	color: $light;
 }
 
 #wrapper-footer-full a:hover {
-  color: $gray-300;
+	color: $gray-300;
 }
 
 /****************************************************************************************/
@@ -324,19 +323,19 @@ body {
 /* all widgets */
 .footer-widget .menu .menu-item,
 .footer-widget ul li {
-  font-size: 1.5em;
-  line-height: 2;
-  text-transform: capitalize;
-  padding-left: 0px;
-  margin: 0;
+	font-size: 1.5em;
+	line-height: 2;
+	text-transform: capitalize;
+	padding-left: 0px;
+	margin: 0;
 }
 
 .footer-widget h3 {
-  font-size: 2.4em;
-  letter-spacing: 0.02em;
-  line-height: 1.8;
-  color: $light;
-  font-weight: $font-weight-bold;
+	font-size: 2.4em;
+	letter-spacing: 0.02em;
+	line-height: 1.8;
+	color: $light;
+	font-weight: $font-weight-bold;
 }
 
 /****************************************************************************************/
@@ -344,28 +343,28 @@ body {
 /****************************************************************************************/
 .ginput_card_expiration_container select,
 .ginput_card_expiration_container label {
-  float: left;
+	float: left;
 }
 
 .c9 .ginput_container_creditcard label,
 .c9 .ginput_card_expiration_container label {
-  margin-bottom: 10px !important;
+	margin-bottom: 10px !important;
 }
 
 .ginput_card_expiration_container:after {
-  content: "";
-  display: block;
-  clear: both;
+	content: "";
+	display: block;
+	clear: both;
 }
 
 .c9 .gform_wrapper .field_description_below .gfield_description {
-  padding-top: 0px;
+	padding-top: 0px;
 }
 
 .gform_wrapper .gsection .gfield_label,
 .gform_wrapper h2.gsection_title,
 .gform_wrapper h3.gform_title {
-  font-size: 2em;
+	font-size: 2em;
 }
 
 /****************************************************************************************/
@@ -376,36 +375,36 @@ body {
 /* Client WooCommerce */
 /****************************************************************************************/
 .woocommerce-page .site-main {
-  margin: 0px auto;
+	margin: 0px auto;
 }
 
 .woocommerce .site-main {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 .theme-c9.woocommerce nav.woocommerce-pagination ul li span,
 .theme-c9.woocommerce nav.woocommerce-pagination ul li .page-numbers {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 .woocommerce ul.products li.product .onsale {
-  box-sizing: content-box;
+	box-sizing: content-box;
 }
 
 @media only screen and (min-width: 1200px) {
-  .woocommerce-page .site-main {
-    max-width: 1140px;
-  }
+	.woocommerce-page .site-main {
+		max-width: 1140px;
+	}
 }
 
 @media only screen and (min-width: 667px) {
-  .woocommerce-page .site-main {
-    padding: 0px 30px;
-  }
+	.woocommerce-page .site-main {
+		padding: 0px 30px;
+	}
 }
 
 @media only screen and (min-width: 1px) {
-  .woocommerce-page .site-main {
-    padding: 0px 15px;
-  }
+	.woocommerce-page .site-main {
+		padding: 0px 15px;
+	}
 }
