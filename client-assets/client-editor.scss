@@ -4,31 +4,47 @@
 @import "client_variables";
 
 body .editor-styles-wrapper {
-  font-size: 10px;
+	font-size: 10px;
 }
 
-.wp-block-pullquote blockquote>.block-library-pullquote__content .editor-rich-text__tinymce[data-is-empty="true"]::before,
-.wp-block-pullquote blockquote>.editor-rich-text p {
-  font-size: 2em;
+.editor-styles-wrapper p,
+.editor-styles-wrapper .container p,
+.editor-styles-wrapper .container-narrow p,
+.editor-styles-wrapper .container-fluid p,
+.editor-styles-wrapper .editor-rich-text .mce-content-body p,
+.editor-styles-wrapper .wp-block-paragraph,
+.editor-styles-wrapper .wp-block-quote p,
+.editor-styles-wrapper .wp-block-file,
+.editor-styles-wrapper ul li,
+.editor-styles-wrapper ol li,
+.editor-styles-wrapper .wp-block-pullquote,
+.editor-styles-wrapper .wp-block-pullquote blockquote p,
+.block-editor-format-toolbar__link-container-value,
+.block-editor-block-list__block[data-type="core/pullquote"][data-align=left] .block-editor-rich-text p,
+.block-editor-block-list__block[data-type="core/pullquote"][data-align=right] .block-editor-rich-text p {
+	font-family: $font-family-base;
 }
 
 .editor-styles-wrapper div,
 .editor-post-title__block .editor-post-title__input {
-  font-family: $font-family-base !important;
+	font-family: $headings-font-family;
 }
 
-.editor-styles-wrapper .h1,
-.editor-styles-wrapper .h2,
-.editor-styles-wrapper .h3,
-.editor-styles-wrapper .h4,
-.editor-styles-wrapper .h5,
-.editor-styles-wrapper .h6,
-.editor-styles-wrapper h1,
-.editor-styles-wrapper h2,
-.editor-styles-wrapper h3,
-.editor-styles-wrapper h4,
-.editor-styles-wrapper h5,
-.editor-styles-wrapper h6 {
-  font-family: $font-family-base;
-  font-weight: $font-weight-bold;
+.editor-styles-wrapper .c9-heading .h1,
+.editor-styles-wrapper .c9-heading .h2,
+.editor-styles-wrapper .c9-heading .h3,
+.editor-styles-wrapper .c9-heading .h4,
+.editor-styles-wrapper .c9-heading .h5,
+.editor-styles-wrapper .c9-heading .h6,
+.editor-styles-wrapper .c9-heading h1,
+.editor-styles-wrapper .c9-heading h2,
+.editor-styles-wrapper .c9-heading h3,
+.editor-styles-wrapper .c9-heading h4,
+.editor-styles-wrapper .c9-heading h5,
+.editor-styles-wrapper .c9-heading h6 {
+	font-family: $headings-font-family;
+}
+
+.editor-styles-wrapper .c9-heading.section-heading .c9-sh {
+	font-family: $subheadings-font-family;
 }

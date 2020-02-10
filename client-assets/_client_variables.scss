@@ -1,26 +1,24 @@
 @import "../../assets/styles/theme/theme_variables";
+@import url("https://use.typekit.net/rtl0abs.css");
+@import url('https://fonts.googleapis.com/css?family=Public+Sans:300,400,700&display=swap');
 
 :root {
-    font-family: "helvetica neue", "helvetica",
-        times,
-        serif;
+	font-family: 'Public Sans',
+		sans-serif;
 }
 
 // Typography
-$headings-font-family: "helvetica neue",
-"helvetica",
-times,
-serif;
+$headings-font-family: 'work-sans',
+sans-serif;
 $headings-font-weight: 700;
 
-$font-family-sans-serif: "helvetica neue",
-"helvetica",
-times,
+$subheadings-font-family: 'input-serif-condensed',
 serif;
-$font-family-base: "helvetica neue",
-"helvetica",
-times,
-serif;
+
+$font-family-sans-serif: 'work-sans',
+sans-serif;
+$font-family-base: 'Public Sans',
+sans-serif;
 
 $line-height-base: 2;
 
@@ -31,7 +29,7 @@ $font-weight-bold: 600;
 
 // Colors
 $primary: #1b1b1b;
-$secondary: #333333;
+$secondary: #E02020;
 $success: #21a77a;
 $info: #f7f7f9;
 $warning: #ec971f;

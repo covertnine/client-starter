@@ -1,5 +1,5 @@
 /****************************************************************************************/
-/* Client Specific Styling
+/* McKenzie Valve Client Specific Styling
 /****************************************************************************************/
 @import "client_variables";
 
@@ -236,12 +236,87 @@ body {
 /****************************************************************************************/
 /* Client Typography */
 /****************************************************************************************/
+
+.c9-site-title,
+.c9 .h1,
+.c9 .h2,
+.c9 .h3,
+.c9 .h4,
+.c9 .h5,
+.c9 .h6,
+.c9 h1,
+.c9 h2,
+.c9 h3,
+.c9 h4,
+.c9 h5,
+.c9 h6 {
+	font-family: $headings-font-family;
+}
+
+.c9-h,
+.c9-h.h,
+.c9-txl,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+	font-family: $headings-font-family;
+	line-height: 1.1;
+}
+
+p.wp-block-subhead,
+.subhead-h,
+.c9-sh,
+.text-muted,
+.c9 .c9-sh,
+.c9 .text-muted {
+	font-family: $subheadings-font-family;
+}
+
 .entry-content,
 .wp-block-pullquote,
 .wp-block-pullquote blockquote p,
-.editor-default-block-appender textarea.editor-default-block-appender__content,
 #wrapper-footer {
+	word-wrap: break-word;
 	font-family: $font-family-base;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.entry-content .subheading2,
+	.wp-block-heading .subheading2,
+	.subheading2 {
+		font-size: 2.3em;
+	}
+
+	.entry-content .subheading3,
+	.wp-block-heading .subheading3,
+	.subheading3 {
+		font-size: 2em;
+	}
+
+	.entry-content .subheading4,
+	.wp-block-heading .subheading4,
+	.subheading4 {
+		font-size: 1.6em;
+	}
+
+	.entry-content .subheading5,
+	.wp-block-heading .subheading5,
+	.subheading5 {
+		font-size: 1.4em;
+	}
+
+	.entry-meta,
+	.entry-meta a {
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		line-height: 1;
+		color: $gray-700;
+	}
+
 }
 
 /****************************************************************************************/
