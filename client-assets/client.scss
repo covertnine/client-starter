@@ -4,7 +4,7 @@
 @import "client_variables";
 
 body {
-	color: $gray-900;
+	color: $dark;
 	font-family: $font-family-base;
 }
 
@@ -102,6 +102,10 @@ body {
 	opacity: 0.8;
 	color: #fff;
 }
+
+/* default button styles */
+.wp-block-button.is-style-outline .wp-block-button__link:not(.has-text-color),
+.wp-block-button__link.c9-button-shape-outline
 
 /* tags */
 .i-tag {
@@ -231,6 +235,10 @@ body {
 	.navbar-collapse {
 		background-color: transparent;
 	}
+
+	.header-navbar .navbar-nav {
+		margin-left: auto;
+	}
 }
 
 /****************************************************************************************/
@@ -251,6 +259,7 @@ body {
 .c9 h5,
 .c9 h6 {
 	font-family: $headings-font-family;
+	font-weight: $font-weight-bold;
 }
 
 .c9-h,
@@ -266,14 +275,6 @@ body {
 	line-height: 1.1;
 }
 
-p.wp-block-subhead,
-.subhead-h,
-.c9-sh,
-.text-muted,
-.c9 .c9-sh,
-.c9 .text-muted {
-	font-family: $subheadings-font-family;
-}
 
 .entry-content,
 .wp-block-pullquote,
@@ -281,6 +282,16 @@ p.wp-block-subhead,
 #wrapper-footer {
 	word-wrap: break-word;
 	font-family: $font-family-base;
+}
+
+p.wp-block-subhead,
+.subhead-h,
+.c9-sh,
+.text-muted,
+.c9 .c9-sh,
+.c9 .text-muted,
+.c9 .c9-heading.section-heading .c9-sh {
+	font-family: $subheadings-font-family;
 }
 
 @media only screen and (min-width: 768px) {
@@ -482,4 +493,13 @@ p.wp-block-subhead,
 	.woocommerce-page .site-main {
 		padding: 0px 15px;
 	}
+}
+
+.c9 .entry-content p.is-style-input-serif,
+.editor-styles-wrapper .block-editor-block-list__layout p.is-style-input-serif {
+	font-family: $subheadings-font-family;
+	font-size: 1.5em;
+	letter-spacing: -0.01em;
+	line-height: 1.625;
+	font-weight: 300;
 }

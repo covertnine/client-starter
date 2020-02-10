@@ -5,6 +5,15 @@
  * @package c9
  */
 
+// Registers a style variation for paragraph fonts
+register_block_style(
+    'core/paragraph',
+    array(
+        'name'         => 'input-serif',
+        'label'        => __( 'Alternate Font' ),
+    )
+);
+
 add_action( 'after_setup_theme', 'c9_client_setup' );
 if ( ! function_exists( 'c9_client_setup' ) ) {
 	/**
