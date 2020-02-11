@@ -7,7 +7,7 @@
  * @package c9
  */
 
-require get_template_directory() . '/admin/class-wp-osa.php';
+require_once get_template_directory() . '/admin/class-wp-osa.php';
 
 if ( class_exists( 'WP_OSA' ) ) {
 

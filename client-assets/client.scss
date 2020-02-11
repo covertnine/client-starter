@@ -8,6 +8,37 @@ body {
 	font-family: $font-family-base;
 }
 
+.c9 .wrapper {
+	margin-top: -115px;
+	margin-bottom: 0px;
+}
+
+.single-post .wrapper {
+	margin-top: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.blog .c9 .wrapper {
+		margin-top: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 667px) {
+	.single .entry-content {
+		padding: 20px;
+	}
+
+	.page-search-results {
+		margin-top: 135px;
+	}
+
+	.blog .site .wrapper {
+		margin-top: 30px;
+	}
+}
+
 /****************************************************************************************/
 /* Client default colors, button colors + background colors */
 /****************************************************************************************/
@@ -104,21 +135,107 @@ body {
 }
 
 /* default button styles */
+.wp-block-button .wp-block-button__link:not(.has-text-color),
 .wp-block-button.is-style-outline .wp-block-button__link:not(.has-text-color),
-.wp-block-button__link.c9-button-shape-outline
-
-/* tags */
-.i-tag {
-	font-size: 1.6em;
-	letter-spacing: 0.137em;
+.wp-block-button__link.c9-button-shape-outline {
+	font-family: $subheadings-font-family;
+	text-transform: uppercase;
+	color: $dark;
+	line-height: 2;
+	font-size: 1.2em;
+	letter-spacing: -0.01em;
+	border: 3px solid $dark;
+	background-color: $light;
+	border-radius: 0px;
+	padding: 6px 30px;
 }
 
-.i-tag:before {
+.wp-block-button.is-style-outline .wp-block-button__link.has-text-color {
+	font-family: $subheadings-font-family;
+	text-transform: uppercase;
+	line-height: 2;
+	font-size: 1.2em;
+	letter-spacing: -0.01em;
+	border: 3px solid;
+	background-color: $light;
+	border-radius: 0px;
+	padding: 6px 30px;
+}
+
+/* custom button styles for MV */
+.wp-block-button.is-style-btn-sm .wp-block-button__link {
+	padding: 3px 12px;
+	background-color: $light;
+}
+
+.wp-block-button.is-style-btn-lg .wp-block-button__link {
+	padding: 6px 60px;
+	background-color: $light;
+}
+
+/* arrow button styles */
+.wp-block-button.is-style-dark-arrow .wp-block-button__link {
+	border: 1px solid $dark;
+}
+
+.wp-block-button.is-style-white-arrow .wp-block-button__link {
+	border: 1px solid $light;
+}
+
+.wp-block-button.is-style-dark-arrow .wp-block-button__link,
+.wp-block-button.is-style-white-arrow .wp-block-button__link {
+	background-color: transparent;
+	text-indent: -9999px;
+	white-space: wrap;
+	overflow: hidden;
+	padding: 6px 20px;
+	width: 38px;
+	height: 26px;
+	-webkit-transition: opacity .2s;
+	transition: opacity .2s;
+}
+
+.wp-block-button.is-style-white-arrow .wp-block-button__link {
+	background: transparent url(../img/arrow-white.svg) center center no-repeat;
+	background-size: 18px 12px;
+}
+
+.wp-block-button.is-style-dark-arrow .wp-block-button__link {
+
+	background: $light url(../img/arrow-dark.svg) center center no-repeat;
+	background-size: 18px 12px;
+}
+
+.wp-block-button.is-style-dark-arrow .wp-block-button__link:hover,
+.wp-block-button.is-style-white-arrow .wp-block-button__link:hover {
+	opacity: .2;
+}
+
+/* tags */
+.i-tag,
+.tags-links {
+	font-size: 1.2em;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: $link-hover-color;
+}
+
+.tags-links a {
+	text-decoration: none;
+	color: $link-color;
+}
+
+.i-tag:before,
+.tags-links a:before {
 	display: inline;
 	content: "\f02b";
-	font: normal normal normal 1.4rem/1 FontAwesome;
 	color: $primary;
 	padding-right: 4px;
+}
+
+.tags-links a:hover {
+	color: $dark;
 }
 
 
@@ -128,12 +245,54 @@ body {
 
 #wrapper-navbar {
 	z-index: 1020;
+}
+
+/* hide toggle arrows in dropdowns */
+.c9 .dropdown-toggle:after {
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+}
+
+/* default nav state */
+.header-navbar .navbar {
+	background-color: transparent;
+}
+
+.header-navbar .navbar-small,
+.blog .header-navbar,
+.archive .header-navbar,
+.single-post .header-navbar,
+.error404 .header-navbar,
+.search .header-navbar {
 	background-color: $light;
 }
 
 .navbar {
 	padding: 0px;
 	background-color: $light;
+}
+
+.navbar-light .navbar-nav>.nav-item>.nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+	color: $light;
+}
+
+.navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+	color: $gray-300;
+}
+
+/* small nav and scrolled nav */
+.navbar-small.navbar-light .navbar-nav>.nav-item>.nav-link,
+.navbar-small.navbar-light .navbar-nav .active>.nav-link,
+.navbar-small.navbar-light .navbar-nav .nav-link.active,
+.navbar-small.navbar-light .navbar-nav .nav-link.show,
+.navbar-small.navbar-light .navbar-nav .show>.nav-link {
+	color: $dark;
 }
 
 .navbar-small {
@@ -202,7 +361,6 @@ body {
 
 	.navbar .container .navbar-small-buttons {
 		-webkit-box-pack: end;
-		-ms-flex-pack: end;
 		justify-content: flex-end;
 	}
 
@@ -456,6 +614,59 @@ p.wp-block-subhead,
 /****************************************************************************************/
 /* Client Custom Blocks */
 /****************************************************************************************/
+
+/* paragraphs */
+.is-style-light-font {
+	font-weight: 100;
+}
+
+
+
+
+/* column container on home */
+.is-style-quick-links .c9-is-responsive-column .c9-column {
+	position: relative;
+	height: 235px;
+	width: 235px;
+	padding: 15px;
+}
+
+.is-style-quick-links .c9-is-responsive-column .c9-column .wp-block-button {
+	position: absolute;
+	bottom: 15px;
+}
+
+.editor-styles-wrapper .is-style-quick-links .c9-is-responsive-column .c9-column .wp-block-button {
+	position: relative;
+}
+
+@media only screen and (max-width: 667px) {
+	.is-style-quick-links .c9-is-responsive-column .c9-column {
+		width: 50%;
+		height: 50%;
+		font-weight: 200;
+	}
+}
+
+.is-style-quick-links .c9-is-responsive-column .c9-column.col-products,
+.is-style-quick-links .c9-is-responsive-column .c9-column.col-repair,
+.is-style-quick-links .c9-is-responsive-column .c9-column.col-certifications {
+	color: $light;
+}
+
+.is-style-quick-links .c9-is-responsive-column .c9-column.col-products,
+.is-style-quick-links .c9-is-responsive-column .c9-column.col-certifications {
+	background-color: #757575;
+}
+
+.is-style-quick-links .c9-is-responsive-column .c9-column.col-repair {
+	background: $dark url(/wp-content/uploads/2020/02/repair-instructions-bg-optim.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.is-style-quick-links .c9-is-responsive-column .c9-column.col-aar {
+	background-color: $light;
+}
 
 /****************************************************************************************/
 /* Client WooCommerce */

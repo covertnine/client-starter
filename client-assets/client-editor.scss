@@ -130,12 +130,6 @@ body .editor-styles-wrapper {
 .h4,
 .h5,
 .h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 .editor-styles-wrapper .h1,
 .editor-styles-wrapper .h2,
 .editor-styles-wrapper .h3,
@@ -166,4 +160,9 @@ h6,
 
 .editor-styles-wrapper .c9-heading.section-heading .c9-sh {
 	font-family: $subheadings-font-family;
+}
+
+/* Custom Backend Button Changes for Quick Links */
+.editor-styles-wrapper .is-style-quick-links .c9-is-responsive-column .c9-column .wp-block-button {
+	position: relative;
 }
