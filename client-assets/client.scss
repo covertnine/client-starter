@@ -137,7 +137,12 @@ body {
 /* default button styles */
 .wp-block-button .wp-block-button__link:not(.has-text-color),
 .wp-block-button.is-style-outline .wp-block-button__link:not(.has-text-color),
-.wp-block-button__link.c9-button-shape-outline {
+.wp-block-button__link.c9-button-shape-outline,
+.c9 .gform_wrapper .gform_footer input.button,
+.c9 .gform_wrapper .gform_footer input[type=submit],
+.c9 .gform_wrapper .gform_page_footer input.button,
+.c9 .gform_wrapper .gform_page_footer input[type=submit],
+#fullscreensearch .btn {
 	font-family: $subheadings-font-family;
 	text-transform: uppercase;
 	color: $dark;
@@ -260,12 +265,32 @@ body {
 	background-color: transparent;
 }
 
+.navbar-light:not(.navbar-small) .navbar-nav .nav-link,
+.navbar-light.navbar-small .navbar-nav .nav-item .nav-link {
+	color: $light;
+}
+
+/* default nav state on non-landing pages */
 .header-navbar .navbar-small,
 .blog .header-navbar,
 .archive .header-navbar,
 .single-post .header-navbar,
 .error404 .header-navbar,
 .search .header-navbar {
+	background-color: $dark;
+}
+
+/* first level nav links */
+.header-navbar .nav .nav-item>.nav-link {
+	font-family: $headings-font-family;
+	text-transform: none;
+	font-size: 16px;
+}
+
+/*dropdown menu*/
+.header-navbar .nav .nav-item .dropdown-item {
+	font-family: $subheadings-font-family;
+	color: $dark;
 	background-color: $light;
 }
 
@@ -292,7 +317,17 @@ body {
 .navbar-small.navbar-light .navbar-nav .nav-link.active,
 .navbar-small.navbar-light .navbar-nav .nav-link.show,
 .navbar-small.navbar-light .navbar-nav .show>.nav-link {
-	color: $dark;
+	color: $light;
+}
+
+.navbar-light:not(.navbar-small) .navbar-dark,
+.navbar-light.navbar-small .navbar-dark {
+	display: none;
+}
+
+.header-navbar .navbar-small .navbar-brand.c9-custom-logo>.c9-home-logo {
+	max-height: 55px;
+	min-height: 45px;
 }
 
 .navbar-small {
@@ -397,6 +432,14 @@ body {
 	.header-navbar .navbar-nav {
 		margin-left: auto;
 	}
+}
+
+/****************************************************************************************/
+/* C9 Theme Forms */
+/****************************************************************************************/
+/* C9 fullscreen search */
+#fullscreensearch input[type="search"] {
+	font-family: $subheadings-font-family;
 }
 
 /****************************************************************************************/
@@ -543,22 +586,58 @@ p.wp-block-subhead,
 /****************************************************************************************/
 
 #wrapper-footer-full {
-	background-color: $primary;
-	color: $light;
+	background-color: $light;
+	color: $dark;
 }
 
 #wrapper-footer {
-	background-color: $primary;
-	color: $light;
+	background-color: $light;
+	color: $dark;
 }
 
 #wrapper-footer-full a {
-	color: $light;
+	color: $dark;
+	text-decoration: none;
+	font-weight: 100;
 }
 
 #wrapper-footer-full a:hover {
 	color: $gray-300;
 }
+
+.footer-entirety {
+	position: relative;
+}
+
+.copyright,
+.copyright a,
+.footer-entirety .copyright,
+#wrapper-footer .site-footer .footer-social-wrapper a {
+	color: $gray-600;
+}
+
+@media only screen and (min-width: 1px) {
+	.footer-entirety:after {
+		position: absolute;
+		bottom: 90px;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		content: '';
+		min-height: 77px;
+		width: 280px;
+		background: transparent url(/wp-content/uploads/2020/02/mckenzie-valve-logo-dark.svg) center center no-repeat;
+		background-size: contain;
+		z-index: 96;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.footer-entirety:after {
+		bottom: 20px;
+	}
+}
+
 
 /****************************************************************************************/
 /* Client widget customizations*/
@@ -575,11 +654,11 @@ p.wp-block-subhead,
 }
 
 .footer-widget h3 {
-	font-size: 2.4em;
-	letter-spacing: 0.02em;
+	font-size: 2.2em;
+	letter-spacing: 0.01em;
 	line-height: 1.8;
-	color: $light;
-	font-weight: $font-weight-bold;
+	font-family: 'work-sans-medium', sans-serif;
+	font-weight: 600;
 }
 
 /****************************************************************************************/
@@ -620,15 +699,61 @@ p.wp-block-subhead,
 	font-weight: 100;
 }
 
+/* boxed news grid on home */
+.is-style-boxed-news.c9-block-post-grid h2 {
+	color: $light;
+	margin-bottom: 50px;
+	font-size: 5em;
+}
 
+.is-style-boxed-news .c9-block-post-grid-text {
+	border: 1px solid #979797;
+	background-color: #D8D8D8;
+	padding: 25px 15px;
+	min-height: 260px;
+}
+
+.is-style-boxed-news.c9-block-post-grid .c9-block-post-grid-byline {
+	color: $dark;
+	font-size: 16px;
+	font-family: $subheadings-font-family;
+}
+
+.is-style-boxed-news.c9-block-post-grid header .c9-block-post-grid-title {
+	margin-bottom: 12px;
+}
+
+.is-style-boxed-news .c9-block-post-grid-more-link {
+	font-weight: 300;
+}
+
+.is-style-boxed-news .c9-block-post-grid-more-link:hover {
+	color: $secondary;
+}
+
+.is-style-boxed-news .c9-block-post-grid-excerpt {
+	margin-bottom: 0px;
+}
 
 
 /* column container on home */
-.is-style-quick-links .c9-is-responsive-column .c9-column {
-	position: relative;
-	height: 235px;
-	width: 235px;
-	padding: 15px;
+
+
+@media only screen and (min-width: 1px) {
+	.is-style-quick-links .c9-is-responsive-column .c9-column {
+		position: relative;
+		width: 100%;
+		min-height: 235px;
+		padding: 15px;
+		font-weight: 200;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.is-style-quick-links .c9-is-responsive-column .c9-column {
+		height: 235px;
+		width: 235px;
+	}
 }
 
 .is-style-quick-links .c9-is-responsive-column .c9-column .wp-block-button {
@@ -638,14 +763,6 @@ p.wp-block-subhead,
 
 .editor-styles-wrapper .is-style-quick-links .c9-is-responsive-column .c9-column .wp-block-button {
 	position: relative;
-}
-
-@media only screen and (max-width: 667px) {
-	.is-style-quick-links .c9-is-responsive-column .c9-column {
-		width: 50%;
-		height: 50%;
-		font-weight: 200;
-	}
 }
 
 .is-style-quick-links .c9-is-responsive-column .c9-column.col-products,

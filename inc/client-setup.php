@@ -68,6 +68,15 @@ register_block_style(
     )
 );
 
+// Registers a style variation for home news
+register_block_style(
+    'c9-blocks/post-grid',
+    array(
+        'name'         => 'boxed-news',
+        'label'        => __( 'Boxed News' ),
+    )
+);
+
 add_action( 'after_setup_theme', 'c9_client_setup' );
 if ( ! function_exists( 'c9_client_setup' ) ) {
 	/**
