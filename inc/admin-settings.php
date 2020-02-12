@@ -45,14 +45,14 @@ add_action( 'add_meta_boxes', 'c9_page_header_switch' );
 function c9_page_header_switch_html( $post ) {
 	$value = isset( get_post_meta( $post->ID, 'c9_page_header_switch', true )['c9_page_header_switch'] ) ? get_post_meta( $post->ID, 'c9_page_header_switch', true )['c9_page_header_switch'] : 'white';
 	?>
-	<label for="c9_page_header_switch">Header Switch</label>
+	<label for="c9_page_header_switch">What color navigation text is needed for the header of the site?</label>
 	<div>
 		<input type="radio" id="black" name="c9_page_header_switch" value="black" <?php echo 'black' === $value ? 'checked' : ''; ?>>
-		<label for="black">Black Text</label>
+		<label for="black"><?php _e('Black Text', 'c9'); ?></label>
 	</div>
 	<div>
 		<input type="radio" id="white" name="c9_page_header_switch" value="white" <?php echo 'white' === $value ? 'checked' : ''; ?>>
-		<label for="white">White Text</label>
+		<label for="white"><?php _e('White Text', 'c9'); ?></label>
 	</div>
 <?php
 }

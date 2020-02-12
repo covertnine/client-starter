@@ -3,7 +3,8 @@
 /****************************************************************************************/
 @import "client_variables";
 
-body .editor-styles-wrapper {
+body .editor-styles-wrapper,
+body .editor-styles-wrapper .block-editor-block-list__layout {
 	font-size: 10px;
 	color: $dark;
 }
