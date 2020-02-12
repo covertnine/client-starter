@@ -198,7 +198,6 @@ body {
 
 	.navbar .container .navbar-small-buttons {
 		-webkit-box-pack: end;
-		-ms-flex-pack: end;
 		justify-content: flex-end;
 	}
 
@@ -236,13 +235,44 @@ body {
 /****************************************************************************************/
 /* Client Typography */
 /****************************************************************************************/
+.c9-site-title,
+.c9 .h1,
+.c9 .h2,
+.c9 .h3,
+.c9 .h4,
+.c9 .h5,
+.c9 .h6,
+.c9 h1,
+.c9 h2,
+.c9 h3,
+.c9 h4,
+.c9 h5,
+.c9 h6 {
+	font-family: $headings-font-family;
+}
+
+.c9-h,
+.c9-h.h,
+.c9-txl,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+	font-family: $headings-font-family;
+	line-height: 1.1;
+}
+
+
 .entry-content,
 .wp-block-pullquote,
 .wp-block-pullquote blockquote p,
-.editor-default-block-appender textarea.editor-default-block-appender__content,
 #wrapper-footer {
+	word-wrap: break-word;
 	font-family: $font-family-base;
 }
+
 
 /****************************************************************************************/
 /* Client page title header on logins, search, pages, posts, etc. */
