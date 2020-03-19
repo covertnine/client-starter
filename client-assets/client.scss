@@ -307,14 +307,14 @@ body {
 .entry-content ol,
 .editor-styles-wrapper .editor-rich-text ol,
 .editor-styles-wrapper .editor-rich-text ul:not(.blocks-gallery-grid) {
-	line-height: 2;
+	line-height: 1.3;
 }
 
 .entry-content ol li,
 .editor-styles-wrapper .editor-rich-text ol li,
 .entry-content ul:not(.blocks-gallery-grid):not(.nav-tabs):not(.c9-share-list) li,
 .editor-styles-wrapper .editor-rich-text ul:not(.blocks-gallery-grid):not(.nav-tabs):not(.c9-share-list) li {
-	margin: 6px 0px;
+	margin: 10px 0px;
 }
 
 /* horizontal rules customized*/
