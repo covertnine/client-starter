@@ -306,14 +306,14 @@ body {
 .entry-content ul:not(.wp-block-gallery),
 .entry-content ol,
 .editor-styles-wrapper .editor-rich-text ol,
-.editor-styles-wrapper .editor-rich-text ul:not(.wp-block-gallery) {
+.editor-styles-wrapper .editor-rich-text ul:not(.blocks-gallery-grid) {
 	line-height: 2;
 }
 
 .entry-content ol li,
 .editor-styles-wrapper .editor-rich-text ol li,
-.entry-content ul:not(.wp-block-gallery):not(.nav-tabs):not(.c9-share-list) li,
-.editor-styles-wrapper .editor-rich-text ul:not(.wp-block-gallery):not(.nav-tabs):not(.c9-share-list) li {
+.entry-content ul:not(.blocks-gallery-grid):not(.nav-tabs):not(.c9-share-list) li,
+.editor-styles-wrapper .editor-rich-text ul:not(.blocks-gallery-grid):not(.nav-tabs):not(.c9-share-list) li {
 	margin: 6px 0px;
 }
 
