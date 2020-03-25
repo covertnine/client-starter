@@ -1,26 +1,17 @@
 @import "../../assets/styles/theme/theme_variables";
 
 :root {
-    font-family: "helvetica neue", "helvetica",
-        times,
-        serif;
+	font-family: "helvetica neue", "helvetica",
+		times,
+		serif;
 }
 
 // Typography
-$headings-font-family: "helvetica neue",
-"helvetica",
-times,
-serif;
+$headings-font-family: inherit;
 $headings-font-weight: 700;
 
-$font-family-sans-serif: "helvetica neue",
-"helvetica",
-times,
-serif;
-$font-family-base: "helvetica neue",
-"helvetica",
-times,
-serif;
+$font-family-sans-serif: inherit;
+$font-family-base: inherit;
 
 $line-height-base: 2;
 
