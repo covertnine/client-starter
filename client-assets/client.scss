@@ -4,8 +4,26 @@
 @import "client_variables";
 
 body {
-	color: $gray-900;
 	font-family: $font-family-base;
+}
+
+.c9 dl,
+.entry-content p,
+.entry-footer {
+	line-height: $line-height-base;
+}
+
+a:hover {
+	color: $primary;
+}
+
+.site-main {
+	-webkit-animation-duration: .38s;
+	animation-duration: .38s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: slideInUp;
+	animation-name: slideInUp;
 }
 
 /****************************************************************************************/
@@ -133,7 +151,6 @@ body {
 }
 
 .navbar-small {
-	-webkit-transition: opacity 0.4s ease-in-out;
 	transition: opacity 0.4s ease-in-out;
 }
 
@@ -166,11 +183,22 @@ body {
 }
 
 .header-navbar .nav .nav-item .dropdown-menu {
+	background-color: $primary;
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	border-radius: 0px;
 	margin-top: 32px;
+	border: 0px;
+	-webkit-animation: fadeInFromNone 0.5s ease-out;
+	animation: fadeInFromNone 0.5s ease-out;
+}
+
+.header-navbar .nav .nav-item .dropdown-menu.show {
+	display: block;
+	-webkit-animation: fadeInFromNone 0.5s ease-out;
+	animation: fadeInFromNone 0.5s ease-out;
 }
 
 @media only screen and (min-width: 1px) {
@@ -197,7 +225,6 @@ body {
 	}
 
 	.navbar .container .navbar-small-buttons {
-		-webkit-box-pack: end;
 		justify-content: flex-end;
 	}
 
@@ -229,6 +256,64 @@ body {
 @media only screen and (min-width: 992px) {
 	.navbar-collapse {
 		background-color: transparent;
+	}
+}
+
+@-webkit-keyframes fadeInFromNone {
+	0% {
+		display: none;
+		opacity: 0;
+	}
+
+	1% {
+		display: block;
+		opacity: 0;
+	}
+
+	100% {
+		display: block;
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInFromNone {
+	0% {
+		display: none;
+		opacity: 0;
+	}
+
+	1% {
+		display: block;
+		opacity: 0;
+	}
+
+	100% {
+		display: block;
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideInUp {
+	from {
+		transform: translate3d(0, 5px, 0);
+		opacity: 0;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+}
+
+@keyframes slideInUp {
+	from {
+		transform: translate3d(0, 5px, 0);
+		opacity: 0;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
 	}
 }
 
