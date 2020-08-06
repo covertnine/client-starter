@@ -20,7 +20,7 @@ if ( ! function_exists( 'client_scripts' ) ) {
 		wp_enqueue_script( 'client-scripts', get_template_directory_uri() . '/client/client-assets/custom-client.js', array( 'jquery', 'smooth-state' ), true );
 
 		//some examples of extending scripts
-		wp_enqueue_script('history-js', get_template_directory_uri() . '/client/client-assets/vendor/history.js', array('jquery'), true);
+		wp_enqueue_script('history-', get_template_directory_uri() . '/client/client-assets/vendor/history.js', array('jquery'), '', true);
         wp_enqueue_script('transitions', get_template_directory_uri() . '/client/client-assets/transitions.js', array('jquery'), '', true);
 
 	}
