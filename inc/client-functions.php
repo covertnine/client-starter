@@ -1,5 +1,5 @@
 <?php
-//functions for client specifics
+//functions for client specific themes
 
 /****************************************************************************************/
 /***************************** load client scripts for frontend styling
@@ -20,8 +20,8 @@ if ( ! function_exists( 'client_scripts' ) ) {
 		wp_enqueue_script( 'client-scripts', get_template_directory_uri() . '/client/client-assets/custom-client.js', array( 'jquery', 'smooth-state' ), true );
 
 		//some examples of extending scripts
-		//wp_enqueue_script( 'smooth-state', get_template_directory_uri() . '/client/client-assets/vendor/jquery.smoothState.min.js', array( 'jquery' ), true );
-		//wp_enqueue_style( 'c9-megamenu', get_template_directory_uri() . '/client/client-assets/vendor/megamenu.css', array( 'c9-styles' ) );
+		wp_enqueue_script('history-js', get_template_directory_uri() . '/client/client-assets/vendor/history.js', array('jquery'), true);
+        wp_enqueue_script('transitions', get_template_directory_uri() . '/client/client-assets/transitions.js', array('jquery'), '', true);
 
 	}
 } // endif function_exists( 'client_scripts' ).
@@ -58,11 +58,12 @@ if ( ! function_exists( 'c9_client_setup' ) ) {
 	}
 }
 
+/****************************************************************************************/
+/* Enable support for WooCommerce */
+/****************************************************************************************/
 add_action( 'after_setup_theme', 'c9_add_woocommerce_support' );
 if ( ! function_exists( 'c9_add_woocommerce_support')) {
-	/**
-	 * Enable support for WooCommerce
-	 */
+
 	function c9_add_woocommerce_support() {
 		add_theme_support( 'woocommerce' );
 	}
@@ -88,19 +89,3 @@ add_filter( 'template_include', function( $template ) {
   return $template;
 }, 99);
 /****************************************************************************************/
-
-
-
-// Example of extending functionality to navigation from client folder
-// add_filter( 'nav_menu_link_attributes', 'c9_add_smooth_class', 10, 4 );
-// if ( ! function_exists( 'c9_add_smooth_class' ) ) {
-// 	/**
-// 	 * Add c9-smooth class to menu items
-// 	 */
-// 	function c9_add_smooth_class( $atts ) {
-
-// 			$atts['class'] .= ' c9-smooth';
-
-// 			return $atts;
-// 	}
-// }
