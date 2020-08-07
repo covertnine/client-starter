@@ -5,10 +5,6 @@
 
 body .editor-styles-wrapper {
 	font-size: 10px;
-	font-family: "helvetica neue",
-		"helvetica",
-		times,
-		serif;
 }
 
 .wp-block-pullquote blockquote>.block-library-pullquote__content .editor-rich-text__tinymce[data-is-empty="true"]::before,
@@ -16,11 +12,17 @@ body .editor-styles-wrapper {
 	font-size: 2em;
 }
 
-.editor-styles-wrapper div,
-.editor-post-title__block .editor-post-title__input {
+/* set base font aka paragraph or body font */
+.editor-styles-wrapper,
+.editor-styles-wrapper .c9-grid,
+.editor-styles-wrapper .c9-post-grid {
 	font-family: $font-family-base;
 }
 
+/* headlings and headings */
+.c9-h,
+.c9-h.h,
+.c9-txl,
 .editor-styles-wrapper .h1,
 .editor-styles-wrapper .h2,
 .editor-styles-wrapper .h3,
@@ -33,10 +35,11 @@ body .editor-styles-wrapper {
 .editor-styles-wrapper h4,
 .editor-styles-wrapper h5,
 .editor-styles-wrapper h6 {
-	font-family: $font-family-base;
+	font-family: $headings-font-family;
 	font-weight: $font-weight-bold;
 }
 
+/* subheadings and secondary fonts */
 .editor-styles-wrapper p.wp-block-subhead,
 .editor-styles-wrapper .subhead-h,
 .editor-styles-wrapper .c9-sh,
