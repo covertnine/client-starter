@@ -19,13 +19,6 @@ a:hover {
 /****************************************************************************************/
 /* Client default colors, button colors + background colors */
 /****************************************************************************************/
-.has-color-light-color {
-	color: $light !important;
-}
-
-.has-color-dark-color {
-	color: $dark !important;
-}
 
 .has-color-primary-background-color {
 	background-color: $primary !important;
@@ -53,6 +46,38 @@ a:hover {
 
 .has-color-dark-background-color {
 	background-color: $dark !important;
+}
+
+.has-color-primary-color {
+	color: $primary !important;
+}
+
+.has-color-secondary-color {
+	color: $secondary !important;
+}
+
+.has-color-success-color {
+	color: $success !important;
+}
+
+.has-color-info-color {
+	color: $info !important;
+}
+
+.has-color-warning-color {
+	color: $warning !important;
+}
+
+.has-color-danger-color {
+	color: $danger !important;
+}
+
+.has-color-dark-color {
+	color: $dark !important;
+}
+
+.has-color-light-color {
+	color: $light !important;
 }
 
 /****************************************************************************************/
