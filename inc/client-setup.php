@@ -1,4 +1,10 @@
 <?php
+/**
+ * C9 Client Setup
+ *
+ * @package c9-starter
+ */
+
 add_action('after_setup_theme', 'c9_client_setup');
 if (! function_exists('c9_client_setup') ) {
     /**
