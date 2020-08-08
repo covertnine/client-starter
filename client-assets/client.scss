@@ -129,18 +129,15 @@ a:hover {
 /* Client navbar */
 /****************************************************************************************/
 
-#wrapper-navbar {
+.header-navbar {
 	z-index: 1020;
-	background-color: $light;
-}
-
-.navbar {
 	padding: 0px;
 	background-color: $light;
 }
 
-.navbar-small {
+.c9 .navbar-small {
 	transition: opacity 0.4s ease-in-out;
+	background-color: rgba(255, 255, 255, 1);
 }
 
 .navbar-small .navbar-brand img {
