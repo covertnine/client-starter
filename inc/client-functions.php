@@ -8,22 +8,22 @@
 /**
 * Client frontend styles and scripts
 */
-require "client-enqueue.php";
+require_once "client-enqueue.php";
 
 /**
 * Client editor styles and scripts
 */
-require "client-editor.php";
+require_once "client-editor.php";
 
 /**
 * Sets up colors and post types and custom styles for core blocks
 */
-require "client-setup.php";
+require_once "client-setup.php";
 
 /**
 * Enable support for WooCommerce
 */
-require "client-woocommerce.php";
+require_once "client-woocommerce.php";
 
 
 /**

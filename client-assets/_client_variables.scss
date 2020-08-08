@@ -23,7 +23,7 @@ $font-weight-bold: 600;
 $font-weight-normal: $font-weight-base;
 
 // Colors
-$primary: #1b1b1b;
+$primary: #000000;
 $secondary: #333333;
 $success: #21a77a;
 $info: #f7f7f9;
@@ -32,14 +32,14 @@ $danger: #843534;
 $dark: #000000;
 $light: #ffffff;
 
-$link-hover-color: #333333;
+$link-hover-color: #000000;
 $link-color: #4a4a4a;
 
-$gray-300: #d2d2d2;
+$gray-100: #f1f1f1;
+$gray-200: #eceeef;
+$gray-300: #dee2e6;
 $gray-500: #d2d2d2;
 $gray-600: rgba(151, 151, 151, 1);
 $gray-700: #2b2b2b;
 $gray-800: #767676;
 $gray-900: #4a4a4a;
-
-$body-color: #121212;

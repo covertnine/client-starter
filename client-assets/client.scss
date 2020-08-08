@@ -19,44 +19,40 @@ a:hover {
 /****************************************************************************************/
 /* Client default colors, button colors + background colors */
 /****************************************************************************************/
-.has-color-white-color {
+.has-color-light-color {
 	color: $light !important;
 }
 
-.has-color-black-color {
+.has-color-dark-color {
 	color: $dark !important;
 }
 
-.has-color-gray-color {
-	color: $gray-900 !important;
+.has-color-primary-background-color {
+	background-color: $primary !important;
 }
 
-.bg-primary {
-	background-color: $primary;
+.has-color-secondary-background-color {
+	background-color: $secondary !important;
 }
 
-.bg-secondary {
-	background-color: $secondary;
+.has-color-success-background-color {
+	background-color: $success !important;
 }
 
-.bg-success {
-	background-color: $success;
+.has-color-info-background-color {
+	background-color: $info !important;
 }
 
-.bg-info {
-	background-color: $info;
+.has-color-warning-background-color {
+	background-color: $warning !important;
 }
 
-.bg-warning {
-	background-color: $warning;
+.has-color-danger-background-color {
+	background-color: $danger !important;
 }
 
-.bg-danger {
-	background-color: $danger;
-}
-
-.bg-dark {
-	background-color: $dark;
+.has-color-dark-background-color {
+	background-color: $dark !important;
 }
 
 /****************************************************************************************/
