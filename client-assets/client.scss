@@ -166,17 +166,36 @@ a:hover {
 	width: auto;
 }
 
-.navbar-nav li a {
-	text-transform: uppercase;
-	line-height: 1;
-	color: rgba(43, 43, 43, 0.77);
-	letter-spacing: 0.05em;
-}
-
 .nav-search,
 .nav-toggle {
 	display: inline-block;
 	line-height: 2;
+}
+
+.header-navbar .navbar-light .navbar-nav .nav-link {
+	text-transform: uppercase;
+	line-height: 1;
+	letter-spacing: 0.05em;
+}
+
+.header-navbar .navbar-light .navbar-toggler,
+.header-navbar .navbar-light .btn-nav-search,
+.header-navbar .navbar-light .navbar-nav .nav-link {
+	color: $link-color;
+}
+
+.header-navbar .navbar-light .navbar-toggler:focus,
+.header-navbar .navbar-light .navbar-toggler:hover,
+.header-navbar .nav-search .btn-nav-search:focus,
+.header-navbar .nav-search .btn-nav-search:hover,
+.header-navbar .navbar-light .navbar-nav .nav-link:focus,
+.header-navbar .navbar-light .navbar-nav .nav-link:hover {
+	color: $primary;
+}
+
+.nav-search .btn-nav-search:focus,
+.header-navbar .navbar-toggler:focus {
+	outline: none;
 }
 
 .nav-search {
