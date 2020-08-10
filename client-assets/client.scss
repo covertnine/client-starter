@@ -196,6 +196,10 @@ a:hover {
 	color: $primary;
 }
 
+.header-navbar .dropdown-item:active {
+	color: $light;
+}
+
 .nav-search .btn-nav-search:focus,
 .header-navbar .navbar-toggler:focus {
 	outline: none;
