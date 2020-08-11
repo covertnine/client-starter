@@ -39,24 +39,20 @@ if (!function_exists('c9_client_setup')) {
 					'about'			=> array(
 						'comment_status'	=> 'closed',
 						'post_type'			=> 'page',
-						'post_title'		=> __('Our History', 'c9-starter'),
+						'post_title'		=> __('About', 'c9-starter'),
 						'post_content'		=>  $wp_filesystem->get_contents(get_template_directory_uri() . '/client/content/about.html')
 					),
-					'services'		=> array(
+					'setup'		=> array(
 						'comment_status'	=> 'closed',
 						'post_type'			=> 'page',
-						'post_title'		=> __('Services', 'c9-starter'),
-						'post_content'		=>  $wp_filesystem->get_contents(get_template_directory_uri() . '/client/content/services.html')
+						'post_title'		=> __('Setup', 'c9-starter'),
+						'post_content'		=>  $wp_filesystem->get_contents(get_template_directory_uri() . '/client/content/setup.html')
 					),
 					'styleguide'		=> array(
 						'comment_status'	=> 'closed',
 						'post_type'			=> 'page',
 						'post_title'		=> __('Style Guide', 'c9-starter'),
 						'post_content'		=>  $wp_filesystem->get_contents(get_template_directory_uri() . '/client/content/styleguide.html')
-					),
-					'contact'		=> array(
-						'comment_status'	=> 'closed',
-						'post_content'		=>  $wp_filesystem->get_contents(get_template_directory_uri() . '/client/content/contact.html')
 					),
 					'blog'			=> array(
 						'post_content'			=> __('This page will show all of the blog posts once you have populated your database with blog items.', 'c9-starter')
@@ -88,18 +84,17 @@ if (!function_exists('c9_client_setup')) {
 								'object'	=> 'page',
 								'object_id'	=> '{{about}}',
 							),
-							'page_services'	=> array(
+							'page_setup'	=> array(
 								'type'		=> 'post_type',
 								'object'	=> 'page',
-								'object_id'	=> '{{services}}',
+								'object_id'	=> '{{setup}}',
 							),
 							'page_styleguide'	=> array(
 								'type'		=> 'post_type',
 								'object'	=> 'page',
 								'object_id'	=> '{{styleguide}}',
 							),
-							'page_blog',
-							'page_contact',
+							'page_blog'
 						),
 					),
 				),
@@ -258,10 +253,18 @@ if (!function_exists('c9_client_setup')) {
 /**
  * Registering block styles for specific Gutenberg Blocks
  */
-// register_block_style(
-// 	'core/separator',
-// 	array(
-// 		'name'         => 'black-bar',
-// 		'label'        => __('Full Width Black Bar', 'c9-starter'),
-// 	)
-// );
+register_block_style(
+	'core/list',
+	array(
+		'name'         => 'light-text',
+		'label'        => __('Light Color Text', 'c9-starter'),
+	)
+);
+
+register_block_style(
+	'core/list',
+	array(
+		'name'         => 'dark-text',
+		'label'        => __('Dark Color Text', 'c9-starter'),
+	)
+);
