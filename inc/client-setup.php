@@ -31,6 +31,12 @@ if (!function_exists('c9_client_setup')) {
 		add_theme_support(
 			'starter-content',
 			array(
+				'attachments' => array(
+					'logo' => array(
+						'post_title' => _x('C9 Starter Logo', 'C9 Starter Content Logo', 'c9-starter'),
+						'file' => '/client/client-assets/img/c9-black-text-logo.svg',
+					),
+				),
 				'posts'	=> array(
 					'home'			=> array(
 						'comment_status'	=> 'closed',
@@ -66,12 +72,20 @@ if (!function_exists('c9_client_setup')) {
 					'blogdescription'	=> __('A blocks-based WordPress Theme starter theme for musicians, events, small businesses, restaurants, dispensaries, and bloggers.', 'c9-starter'),
 				),
 				'theme_mods'		=> array(
+					'custom_logo' 			=> '{{logo}}',
 					'c9_show_search'		=> 'show',
 					'c9_copyright_content'	=> '&copy; 2020. <a href="https://www.covertnine.com" title="Web design company in Chicago" target="_blank">WordPress Website design by COVERT NINE</a>.',
 					'c9_default_font'		=> 'no',
 					'c9_author_visible'		=> 'hide',
 					'c9_blog_sidebar'		=> 'hide',
-					'c9_archive_sidebar'	=> 'hide'
+					'c9_archive_sidebar'	=> 'hide',
+					'c9_show_social'		=> 'show',
+					'c9_twitter'			=> '#',
+					'c9_instagram'			=> '#',
+					'c9_spotify'			=> '#',
+					'c9_youtube'			=> '#',
+					'c9_linkedin'			=> '#',
+
 
 				),
 				'nav_menus'		=> array(
@@ -149,7 +163,7 @@ if (!function_exists('c9_client_setup')) {
 						'meta_custom' => array('meta', array(
 							'title'	=> __('WordPress Meta', 'c9-starter'),
 						)),
-						'c9work_about' => array(
+						'c9starter_about' => array(
 							'text',
 							array(
 								'title'	=> __('About C9 Starter', 'c9-starter'),
