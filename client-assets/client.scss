@@ -200,11 +200,6 @@ a:hover {
 	color: $light;
 }
 
-.nav-search .btn-nav-search:focus,
-.header-navbar .navbar-toggler:focus {
-	outline: none;
-}
-
 .navbar-toggler[aria-expanded="true"] .fa-bars:before {
 	content: '\f00d';
 }
