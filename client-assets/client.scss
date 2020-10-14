@@ -145,6 +145,36 @@ a:hover {
 	padding-right: 4px;
 }
 
+#fullscreensearch input[type=search]:focus,
+.btn:focus,
+.c9 .entry-content button:focus,
+.entry-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:focus,
+.entry-content .wp-block-button__link:focus,
+.entry-content input[type=text]:focus,
+.search-close:focus,
+.wp-block-button__link:focus,
+.wp-block-button__link:not([href]):not([tabindex]):focus,
+.wp-block-file__button:focus {
+	outline: 1px dotted #fff;
+}
+
+/****************************************************************************************/
+/* Fullscreen search */
+/****************************************************************************************/
+#fullscreensearch input[type=search]:focus,
+#fullscreensearch .search-close:focus,
+#fullscreensearch button[type="submit"]:focus {
+	box-shadow: 1px 1px 13px rgba(0, 0, 0, .2);
+}
+
+#fullscreensearch .btn {
+	margin-top: 30px;
+}
+
+#fullscreensearch .btn:focus {
+	outline: dotted 1px $light;
+
+}
 
 /****************************************************************************************/
 /* Client navbar */
