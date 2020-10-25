@@ -550,6 +550,10 @@ p.wp-block-subhead,
 	float: left;
 }
 
+.form-control {
+	background-clip: border-box;
+}
+
 .c9 .ginput_container_creditcard label,
 .c9 .ginput_card_expiration_container label {
 	margin-bottom: 10px !important;
