@@ -159,7 +159,7 @@ a:hover {
 }
 
 /****************************************************************************************/
-/* Fullscreen search */
+/* Client fullscreen search */
 /****************************************************************************************/
 #fullscreensearch input[type=search]:focus,
 #fullscreensearch .search-close:focus,
@@ -174,6 +174,10 @@ a:hover {
 #fullscreensearch .btn:focus {
 	outline: dotted 1px $light;
 
+}
+
+#fullscreensearch input[type="search"]:focus {
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
 }
 
 /****************************************************************************************/
@@ -618,12 +622,12 @@ p.wp-block-subhead,
 }
 
 /****************************************************************************************/
-/* Full screen search styling */
-/****************************************************************************************/
-#fullscreensearch input[type="search"]:focus {
-	box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
-}
-
-/****************************************************************************************/
 /* Client Custom Blocks */
 /****************************************************************************************/
+
+/* Horizontal Tabs C9 Blocks */
+@media only screen and (max-width: 667px) {
+	.entry-content .nav.nav-tabs .nav-item {
+		margin: 0px;
+	}
+}
