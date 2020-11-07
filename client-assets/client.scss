@@ -582,7 +582,9 @@ p.wp-block-subhead,
 	margin: 0px auto;
 }
 
-.woocommerce .site-main {
+.woocommerce .site-main,
+.woocommerce-order-overview,
+.woocommerce ul.order_details li {
 	font-size: 16px;
 }
 
@@ -605,6 +607,43 @@ p.wp-block-subhead,
 .woocommerce input.button:disabled,
 .woocommerce input.button:disabled[disabled] {
 	padding: 16px 33px;
+}
+
+.woocommerce-error::before,
+.woocommerce-info::before,
+.woocommerce-message::before {
+	display: none;
+}
+
+.c9 .woocommerce #content table.cart td.actions .coupon,
+.c9 .woocommerce table.cart td.actions .coupon,
+.c9 .woocommerce-page #content table.cart td.actions .coupon,
+.c9 .woocommerce-page table.cart td.actions .coupon {
+	display: flex;
+	align-items: center;
+}
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+	background-color: $light;
+}
+
+#add_payment_method #payment ul.payment_methods li,
+.woocommerce-cart #payment ul.payment_methods li,
+.woocommerce-checkout #payment ul.payment_methods li {
+	padding: 15px 25px;
+}
+
+.woocommerce-page .col-1,
+.woocommerce-page .col-2 {
+	max-width: none;
+}
+
+.woocommerce-checkout .col-1,
+.woocommerce-checkout .col-2 {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .woocommerce ul.products li.product .onsale {
