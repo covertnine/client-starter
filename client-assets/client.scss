@@ -7,15 +7,6 @@ a:hover {
 	color: $primary;
 }
 
-.site-main {
-	-webkit-animation-duration: .38s;
-	animation-duration: .38s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-	-webkit-animation-name: slideInUp;
-	animation-name: slideInUp;
-}
-
 /****************************************************************************************/
 /* Client default colors, button colors + background colors */
 /****************************************************************************************/
@@ -362,30 +353,6 @@ a:hover {
 
 	100% {
 		display: block;
-		opacity: 1;
-	}
-}
-
-@-webkit-keyframes slideInUp {
-	from {
-		transform: translate3d(0, 5px, 0);
-		opacity: 0;
-	}
-
-	to {
-		transform: translate3d(0, 0, 0);
-		opacity: 1;
-	}
-}
-
-@keyframes slideInUp {
-	from {
-		transform: translate3d(0, 5px, 0);
-		opacity: 0;
-	}
-
-	to {
-		transform: translate3d(0, 0, 0);
 		opacity: 1;
 	}
 }
