@@ -259,8 +259,10 @@ if (!function_exists('c9_client_setup')) {
 				'video',
 				'quote',
 				'link',
+				'gallery'
 			)
 		);
+
 	}
 }
 

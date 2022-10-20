@@ -4,7 +4,7 @@
 @import "client_variables";
 
 a:hover {
-	color: $primary;
+    color: $primary;
 }
 
 /****************************************************************************************/
@@ -12,67 +12,67 @@ a:hover {
 /****************************************************************************************/
 
 .has-color-primary-background-color {
-	background-color: $primary !important;
+    background-color: $primary !important;
 }
 
 .has-color-secondary-background-color {
-	background-color: $secondary !important;
+    background-color: $secondary !important;
 }
 
 .has-color-success-background-color {
-	background-color: $success !important;
+    background-color: $success !important;
 }
 
 .has-color-info-background-color {
-	background-color: $info !important;
+    background-color: $info !important;
 }
 
 .has-color-warning-background-color {
-	background-color: $warning !important;
+    background-color: $warning !important;
 }
 
 .has-color-danger-background-color {
-	background-color: $danger !important;
+    background-color: $danger !important;
 }
 
 .has-color-dark-background-color {
-	background-color: $dark !important;
+    background-color: $dark !important;
 }
 
 .has-color-light-background-color {
-	background-color: $light !important;
+    background-color: $light !important;
 }
 
 .has-color-primary-color {
-	color: $primary !important;
+    color: $primary !important;
 }
 
 .has-color-secondary-color {
-	color: $secondary !important;
+    color: $secondary !important;
 }
 
 .has-color-success-color {
-	color: $success !important;
+    color: $success !important;
 }
 
 .has-color-info-color {
-	color: $info !important;
+    color: $info !important;
 }
 
 .has-color-warning-color {
-	color: $warning !important;
+    color: $warning !important;
 }
 
 .has-color-danger-color {
-	color: $danger !important;
+    color: $danger !important;
 }
 
 .has-color-dark-color {
-	color: $dark !important;
+    color: $dark !important;
 }
 
 .has-color-light-color {
-	color: $light !important;
+    color: $light !important;
 }
 
 /****************************************************************************************/
@@ -82,21 +82,21 @@ a:hover {
 .c9 .wp-block-button__link,
 .editor-styles-wrapper .btn,
 .editor-styles-wrapper .wp-block-button__link {
-	text-transform: uppercase;
-	font-weight: 500;
-	padding: 9px 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 9px 35px;
 }
 
 .wp-block-button:not(.is-style-outline) .wp-block-button__link {
-	padding: 12px 35px;
+    padding: 12px 35px;
 }
 
 .footer-search-wrapper input[type="submit"] {
-	text-transform: uppercase;
-	font-weight: 500;
-	font-size: 14px;
-	background-color: $primary;
-	border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: $primary;
+    border-radius: 0px;
 }
 
 .btn,
@@ -116,7 +116,7 @@ a:hover {
 .wp-block-button:not(.is-style-outline) .wp-block-button__link.mce-content-body,
 .wp-block-file__button,
 .wp-block-file .wp-block-file__button {
-	font-family: $font-family-base;
+    font-family: $font-family-base;
 }
 
 .c9 button:hover,
@@ -126,22 +126,22 @@ a:hover {
 .editor-styles-wrapper .btn:hover,
 .editor-styles-wrapper .mce-content-body.button:hover,
 .editor-styles-wrapper .wp-block-button__link:hover {
-	opacity: 0.8;
-	color: #fff;
+    opacity: 0.8;
+    color: #fff;
 }
 
 /* tags */
 .i-tag {
-	font-size: 1.6em;
-	letter-spacing: 0.137em;
+    font-size: 16px;
+    letter-spacing: 0.137em;
 }
 
 .i-tag:before {
-	display: inline;
-	content: "\f02b";
-	font: normal normal normal 1.4rem/1 FontAwesome;
-	color: $primary;
-	padding-right: 4px;
+    display: inline;
+    content: "\f02b";
+    font: normal normal normal 1.4rem/1 FontAwesome;
+    color: $primary;
+    padding-right: 4px;
 }
 
 #fullscreensearch input[type=search]:focus,
@@ -154,7 +154,7 @@ a:hover {
 .wp-block-button__link:focus,
 .wp-block-button__link:not([href]):not([tabindex]):focus,
 .wp-block-file__button:focus {
-	outline: 1px dotted #fff;
+    outline: 1px dotted #fff;
 }
 
 /****************************************************************************************/
@@ -163,20 +163,20 @@ a:hover {
 #fullscreensearch input[type=search]:focus,
 #fullscreensearch .search-close:focus,
 #fullscreensearch button[type="submit"]:focus {
-	box-shadow: 1px 1px 13px rgba(0, 0, 0, .2);
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, .2);
 }
 
 #fullscreensearch .btn {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 #fullscreensearch .btn:focus {
-	outline: dotted 1px $light;
+    outline: dotted 1px $light;
 
 }
 
 #fullscreensearch input[type="search"]:focus {
-	box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
 }
 
 /****************************************************************************************/
@@ -184,38 +184,38 @@ a:hover {
 /****************************************************************************************/
 
 .header-navbar {
-	z-index: 1020;
-	padding: 0px;
-	background-color: $light;
+    z-index: 1020;
+    padding: 0px;
+    background-color: $light;
 }
 
 .c9 .navbar-small {
-	transition: opacity 0.4s ease-in-out;
-	background-color: rgba(255, 255, 255, 1);
+    transition: opacity 0.4s ease-in-out;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .navbar-small .navbar-brand img {
-	max-height: 45px;
-	width: auto;
+    max-height: 45px;
+    width: auto;
 }
 
 .nav-search,
 .nav-toggle {
-	display: inline-block;
-	line-height: 2;
+    display: inline-block;
+    line-height: 2;
 }
 
 .header-navbar .navbar-light .navbar-nav .nav-link {
-	text-transform: uppercase;
-	line-height: 1;
-	letter-spacing: 0.05em;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0.05em;
 }
 
 .header-navbar .navbar-light .navbar-toggler,
 .header-navbar .navbar-light .btn-nav-search,
 .header-navbar .navbar-light .navbar-nav .nav-link,
 .header-navbar .dropdown-item {
-	color: $link-color;
+    color: $link-color;
 }
 
 .header-navbar .navbar-light .navbar-toggler:focus,
@@ -226,135 +226,135 @@ a:hover {
 .header-navbar .navbar-light .navbar-nav .nav-link:hover,
 .header-navbar .dropdown-item:focus,
 .header-navbar .dropdown-item:hover {
-	color: $primary;
+    color: $primary;
 }
 
 .header-navbar .dropdown-item:active {
-	color: $light;
+    color: $light;
 }
 
 .navbar-toggler[aria-expanded="true"] .fa-bars:before {
-	content: '\f00d';
+    content: '\f00d';
 }
 
 .nav-search {
-	margin-right: 10px;
+    margin-right: 10px;
 }
 
 /* drop downs */
 .header-navbar .nav .nav-item .nav-link,
 .header-navbar .nav .nav-item .dropdown-item {
-	padding: 15px;
+    padding: 15px;
 }
 
 .header-navbar .nav .nav-item .dropdown-menu {
-	border-top-left-radius: 0px;
-	border-top-right-radius: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	border-radius: 0px;
-	margin-top: 32px;
-	border: 0px;
-	-webkit-animation: fadeInFromNone 0.5s ease-out;
-	animation: fadeInFromNone 0.5s ease-out;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 0px;
+    margin-top: 32px;
+    border: 0px;
+    -webkit-animation: fadeInFromNone 0.5s ease-out;
+    animation: fadeInFromNone 0.5s ease-out;
 }
 
 .header-navbar .nav .nav-item .dropdown-menu.show {
-	display: block;
-	-webkit-animation: fadeInFromNone 0.5s ease-out;
-	animation: fadeInFromNone 0.5s ease-out;
+    display: block;
+    -webkit-animation: fadeInFromNone 0.5s ease-out;
+    animation: fadeInFromNone 0.5s ease-out;
 }
 
 @media only screen and (min-width: 1px) {
-	.header-navbar {
-		height: 55px;
-	}
+    .header-navbar {
+        height: 55px;
+    }
 
-	.navbar-collapse {
-		background-color: $light;
-	}
+    .navbar-collapse {
+        background-color: $light;
+    }
 
-	.navbar-brand img {
-		width: auto;
-		max-height: 45px;
-		height: auto;
-	}
+    .navbar-brand img {
+        width: auto;
+        max-height: 45px;
+        height: auto;
+    }
 
-	#page .navbar-small-mobile {
-		padding-bottom: 0px;
-	}
+    #page .navbar-small-mobile {
+        padding-bottom: 0px;
+    }
 
-	.navbar {
-		display: block;
-	}
+    .navbar {
+        display: block;
+    }
 
-	.navbar .container .navbar-small-buttons {
-		justify-content: flex-end;
-	}
+    .navbar .container .navbar-small-buttons {
+        justify-content: flex-end;
+    }
 
-	.btn-nav-search,
-	.navbar-toggler {
-		margin: 0px;
-		padding: 12px;
-	}
+    .btn-nav-search,
+    .navbar-toggler {
+        margin: 0px;
+        padding: 12px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-	.header-navbar .navbar-brand.c9-custom-logo>.c9-home-logo {
-		min-height: 92px;
-	}
+    .header-navbar .navbar-brand.c9-custom-logo>.c9-home-logo {
+        min-height: 92px;
+    }
 
-	.header-navbar {
-		height: 115px;
-	}
+    .header-navbar {
+        height: 115px;
+    }
 
 }
 
 @media only screen and (max-width: 991px) {
-	.header-navbar .nav .nav-item .dropdown-menu {
-		margin-top: 0px;
-		border: 1px solid transparent;
-	}
+    .header-navbar .nav .nav-item .dropdown-menu {
+        margin-top: 0px;
+        border: 1px solid transparent;
+    }
 }
 
 @media only screen and (min-width: 992px) {
-	.navbar-collapse {
-		background-color: transparent;
-	}
+    .navbar-collapse {
+        background-color: transparent;
+    }
 }
 
 @-webkit-keyframes fadeInFromNone {
-	0% {
-		display: none;
-		opacity: 0;
-	}
+    0% {
+        display: none;
+        opacity: 0;
+    }
 
-	1% {
-		display: block;
-		opacity: 0;
-	}
+    1% {
+        display: block;
+        opacity: 0;
+    }
 
-	100% {
-		display: block;
-		opacity: 1;
-	}
+    100% {
+        display: block;
+        opacity: 1;
+    }
 }
 
 @keyframes fadeInFromNone {
-	0% {
-		display: none;
-		opacity: 0;
-	}
+    0% {
+        display: none;
+        opacity: 0;
+    }
 
-	1% {
-		display: block;
-		opacity: 0;
-	}
+    1% {
+        display: block;
+        opacity: 0;
+    }
 
-	100% {
-		display: block;
-		opacity: 1;
-	}
+    100% {
+        display: block;
+        opacity: 1;
+    }
 }
 
 /****************************************************************************************/
@@ -384,7 +384,7 @@ a:hover {
 .display-4,
 .display-5,
 .display-6 {
-	font-weight: $headings-font-weight;
+    font-weight: $headings-font-weight;
 }
 
 /* big text xl line height */
@@ -394,7 +394,7 @@ a:hover {
 .display-4,
 .display-5,
 .display-6 {
-	line-height: 1.1;
+    line-height: 1.1;
 }
 
 /* body paragraphs + pullquotes */
@@ -402,7 +402,7 @@ a:hover {
 .wp-block-pullquote,
 .wp-block-pullquote blockquote p,
 #wrapper-footer {
-	word-wrap: break-word;
+    word-wrap: break-word;
 }
 
 /* subheadings */
@@ -411,12 +411,12 @@ p.wp-block-subhead,
 .c9-sh,
 .c9-cta .c9-sh p,
 .c9-heading .text-muted {
-	font-weight: 200;
+    font-weight: 200;
 }
 
 .c9-heading .c9-sh,
 .c9-heading .text-muted {
-	font-weight: 200;
+    font-weight: 200;
 }
 
 /****************************************************************************************/
@@ -425,24 +425,24 @@ p.wp-block-subhead,
 
 @media only screen and (min-width: 1px) {
 
-	.page-template-containerwidthpage .c9 .page>.entry-header,
-	.page-template-fullwidthpage .c9 .page>.entry-header {
-		background-color: $primary;
-	}
+    .page-template-containerwidthpage .c9 .page>.entry-header,
+    .page-template-fullwidthpage .c9 .page>.entry-header {
+        background-color: $primary;
+    }
 
-	.c9 .page .entry-header h1 {
-		font-size: 5em;
-		text-align: center;
-		color: $light;
-		margin: 70px auto;
-		line-height: 1;
-	}
+    .c9 .page .entry-header h1 {
+        font-size: 50px;
+        text-align: center;
+        color: $light;
+        margin: 70px auto;
+        line-height: 1;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-	.c9 .page .entry-header h1 {
-		font-size: 8em;
-	}
+    .c9 .page .entry-header h1 {
+        font-size: 80px;
+    }
 }
 
 /****************************************************************************************/
@@ -452,21 +452,21 @@ p.wp-block-subhead,
 .entry-content ol,
 .editor-styles-wrapper .editor-rich-text ol,
 .editor-styles-wrapper .editor-rich-text ul:not(.blocks-gallery-grid) {
-	line-height: 1.3;
+    line-height: 1.3;
 }
 
 .entry-content ol li,
 .editor-styles-wrapper .editor-rich-text ol li,
 .entry-content ul:not(.blocks-gallery-grid):not(.nav-tabs):not(.c9-share-list):not(.wp-block-social-links) li,
 .editor-styles-wrapper .editor-rich-text ul:not(.blocks-gallery-grid):not(.nav-tabs):not(.c9-share-list) li {
-	margin: 10px 0px;
+    margin: 10px 0px;
 }
 
 /* horizontal rules customized*/
 .entry-content .wp-block-column .wp-block-separator.is-style-wide,
 .wp-block-columns .wp-block-separator.is-style-wide {
-	width: 60%;
-	max-width: 60%;
+    width: 60%;
+    max-width: 60%;
 }
 
 /****************************************************************************************/
@@ -474,21 +474,21 @@ p.wp-block-subhead,
 /****************************************************************************************/
 
 #wrapper-footer-full {
-	background-color: $primary;
-	color: $light;
+    background-color: $primary;
+    color: $light;
 }
 
 #wrapper-footer {
-	background-color: $primary;
-	color: $light;
+    background-color: $primary;
+    color: $light;
 }
 
 #wrapper-footer-full a {
-	color: $light;
+    color: $light;
 }
 
 #wrapper-footer-full a:hover {
-	color: $gray-300;
+    color: $gray-300;
 }
 
 /****************************************************************************************/
@@ -498,19 +498,19 @@ p.wp-block-subhead,
 /* all widgets */
 .footer-widget .menu .menu-item,
 .footer-widget ul li {
-	font-size: 15px;
-	line-height: 2;
-	text-transform: capitalize;
-	padding-left: 0px;
-	margin: 0;
+    font-size: 15px;
+    line-height: 2;
+    text-transform: capitalize;
+    padding-left: 0px;
+    margin: 0;
 }
 
 .footer-widget h3 {
-	font-size: 2.4em;
-	letter-spacing: 0.02em;
-	line-height: 1.8;
-	color: $light;
-	font-weight: $font-weight-bold;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.8;
+    color: $light;
+    font-weight: $font-weight-bold;
 }
 
 /****************************************************************************************/
@@ -518,50 +518,50 @@ p.wp-block-subhead,
 /****************************************************************************************/
 .ginput_card_expiration_container select,
 .ginput_card_expiration_container label {
-	float: left;
+    float: left;
 }
 
 .form-control {
-	background-clip: border-box;
+    background-clip: border-box;
 }
 
 .c9 .ginput_container_creditcard label,
 .c9 .ginput_card_expiration_container label {
-	margin-bottom: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 .ginput_card_expiration_container:after {
-	content: "";
-	display: block;
-	clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .c9 .gform_wrapper .field_description_below .gfield_description {
-	padding-top: 0px;
+    padding-top: 0px;
 }
 
 .gform_wrapper .gsection .gfield_label,
 .gform_wrapper h2.gsection_title,
 .gform_wrapper h3.gform_title {
-	font-size: 2em;
+    font-size: 20px;
 }
 
 /****************************************************************************************/
 /* Client WooCommerce */
 /****************************************************************************************/
 .woocommerce-page .site-main {
-	margin: 0px auto;
+    margin: 0px auto;
 }
 
 .woocommerce .site-main,
 .woocommerce-order-overview,
 .woocommerce ul.order_details li {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 .theme-c9.woocommerce nav.woocommerce-pagination ul li span,
 .theme-c9.woocommerce nav.woocommerce-pagination ul li .page-numbers {
-	font-size: 16px;
+    font-size:16px;
 }
 
 .c9 .woocommerce button.button,
@@ -577,66 +577,66 @@ p.wp-block-subhead,
 .woocommerce input.button.disabled,
 .woocommerce input.button:disabled,
 .woocommerce input.button:disabled[disabled] {
-	padding: 16px 33px;
+    padding: 16px 33px;
 }
 
 .woocommerce-error::before,
 .woocommerce-info::before,
 .woocommerce-message::before {
-	display: none;
+    display: none;
 }
 
 .c9 .woocommerce #content table.cart td.actions .coupon,
 .c9 .woocommerce table.cart td.actions .coupon,
 .c9 .woocommerce-page #content table.cart td.actions .coupon,
 .c9 .woocommerce-page table.cart td.actions .coupon {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 #add_payment_method #payment,
 .woocommerce-cart #payment,
 .woocommerce-checkout #payment {
-	background-color: $light;
+    background-color: $light;
 }
 
 #add_payment_method #payment ul.payment_methods li,
 .woocommerce-cart #payment ul.payment_methods li,
 .woocommerce-checkout #payment ul.payment_methods li {
-	padding: 15px 25px;
+    padding: 15px 25px;
 }
 
 .woocommerce-page .col-1,
 .woocommerce-page .col-2 {
-	max-width: none;
+    max-width: none;
 }
 
 .woocommerce-checkout .col-1,
 .woocommerce-checkout .col-2 {
-	padding-left: 0;
-	padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .woocommerce ul.products li.product .onsale {
-	box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 @media only screen and (min-width: 1200px) {
-	.woocommerce-page .site-main {
-		max-width: 1140px;
-	}
+    .woocommerce-page .site-main {
+        max-width: 1140px;
+    }
 }
 
 @media only screen and (min-width: 667px) {
-	.woocommerce-page .site-main {
-		padding: 0px 30px;
-	}
+    .woocommerce-page .site-main {
+        padding: 0px 30px;
+    }
 }
 
 @media only screen and (min-width: 1px) {
-	.woocommerce-page .site-main {
-		padding: 0px 15px;
-	}
+    .woocommerce-page .site-main {
+        padding: 0px 15px;
+    }
 }
 
 /****************************************************************************************/
@@ -645,7 +645,7 @@ p.wp-block-subhead,
 
 /* Horizontal Tabs C9 Blocks */
 @media only screen and (max-width: 667px) {
-	.entry-content .nav.nav-tabs .nav-item {
-		margin: 0px;
-	}
+    .entry-content .nav.nav-tabs .nav-item {
+        margin: 0px;
+    }
 }
