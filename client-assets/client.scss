@@ -446,30 +446,6 @@ p.wp-block-subhead,
 }
 
 /****************************************************************************************/
-/* Client unordered list stylings */
-/****************************************************************************************/
-.entry-content ul:not(.wp-block-gallery),
-.entry-content ol,
-.editor-styles-wrapper .editor-rich-text ol,
-.editor-styles-wrapper .editor-rich-text ul:not(.blocks-gallery-grid) {
-    line-height: 1.3;
-}
-
-.entry-content ol li,
-.editor-styles-wrapper .editor-rich-text ol li,
-.entry-content ul:not(.blocks-gallery-grid):not(.nav-tabs):not(.c9-share-list):not(.wp-block-social-links) li,
-.editor-styles-wrapper .editor-rich-text ul:not(.blocks-gallery-grid):not(.nav-tabs):not(.c9-share-list) li {
-    margin: 10px 0px;
-}
-
-/* horizontal rules customized*/
-.entry-content .wp-block-column .wp-block-separator.is-style-wide,
-.wp-block-columns .wp-block-separator.is-style-wide {
-    width: 60%;
-    max-width: 60%;
-}
-
-/****************************************************************************************/
 /* Client Footer */
 /****************************************************************************************/
 
@@ -561,7 +537,7 @@ p.wp-block-subhead,
 
 .theme-c9.woocommerce nav.woocommerce-pagination ul li span,
 .theme-c9.woocommerce nav.woocommerce-pagination ul li .page-numbers {
-    font-size:16px;
+    font-size: 16px;
 }
 
 .c9 .woocommerce button.button,
@@ -648,4 +624,11 @@ p.wp-block-subhead,
     .entry-content .nav.nav-tabs .nav-item {
         margin: 0px;
     }
+}
+
+/* horizontal rules customized*/
+.entry-content .wp-block-column .wp-block-separator.is-style-wide,
+.wp-block-columns .wp-block-separator.is-style-wide {
+    width: 60%;
+    max-width: 60%;
 }
