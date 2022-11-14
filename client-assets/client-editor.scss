@@ -3,19 +3,6 @@
 /****************************************************************************************/
 @import "client_variables";
 
-body .editor-styles-wrapper {
-    font-size: 10px;
-}
-
-html :where(.editor-styles-wrapper) p {
-    font-size: 16px;
-}
-
-.wp-block-pullquote blockquote>.block-library-pullquote__content .editor-rich-text__tinymce[data-is-empty="true"]::before,
-.wp-block-pullquote blockquote>.editor-rich-text p {
-    font-size: 20px;
-}
-
 /* headlings and subheadings */
 .c9-h,
 .c9-h.h,
