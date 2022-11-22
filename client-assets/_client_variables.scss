@@ -10,11 +10,12 @@ $font-family-sans-serif: oswald;
 $font-family-base: muli;
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;1,400;1,700&display=swap');
 
 // Typography
 $headings-font-family: inherit;
-$font-family-sans-serif: inherit;
-$font-family-base: inherit;
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+$font-family-base: 'Merriweather', serif;
 
 $line-height-base: 1.6;
 $headings-font-weight: 700;
