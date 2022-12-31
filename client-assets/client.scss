@@ -94,7 +94,7 @@ a:hover {
 .footer-search-wrapper input[type="submit"] {
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1.4rem;
     background-color: $primary;
     border-radius: 0px;
 }
@@ -132,7 +132,7 @@ a:hover {
 
 /* tags */
 .i-tag {
-    font-size: 16px;
+    font-size: 1.6rem;
     letter-spacing: 0.137em;
 }
 
@@ -431,7 +431,7 @@ p.wp-block-subhead,
     }
 
     .c9 .page .entry-header h1 {
-        font-size: 50px;
+        font-size: 5rem;
         text-align: center;
         color: $light;
         margin: 70px auto;
@@ -441,7 +441,7 @@ p.wp-block-subhead,
 
 @media only screen and (min-width: 768px) {
     .c9 .page .entry-header h1 {
-        font-size: 80px;
+        font-size: 8rem;
     }
 }
 
@@ -482,7 +482,7 @@ p.wp-block-subhead,
 }
 
 .footer-widget h3 {
-    font-size: 24px;
+    font-size: 2.4rem;
     letter-spacing: 0.02em;
     line-height: 1.8;
     color: $light;
@@ -519,7 +519,7 @@ p.wp-block-subhead,
 .gform_wrapper .gsection .gfield_label,
 .gform_wrapper h2.gsection_title,
 .gform_wrapper h3.gform_title {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 /****************************************************************************************/
