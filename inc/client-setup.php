@@ -15,15 +15,6 @@ if (!function_exists('c9_client_setup')) {
 	function c9_client_setup()
 	{
 
-		global $wp_filesystem;
-		// Initialize the WP filesystem, no more using 'file-put-contents' function
-		if (empty($wp_filesystem)) {
-			require_once(ABSPATH . '/wp-admin/includes/file.php');
-			require_once(ABSPATH . '/wp-admin/includes/class-wp-filesystem-base.php');
-			require_once(ABSPATH . '/wp-admin/includes/class-wp-filesystem-direct.php');
-			WP_Filesystem();
-		}
-
 		/**
 		 * Apearance > Customizer for fresh sites
 		 * Customizer Sample Content
@@ -40,25 +31,25 @@ if (!function_exists('c9_client_setup')) {
 				'posts'	=> array(
 					'home'			=> array(
 						'comment_status'	=> 'closed',
-						'post_content'		=>  $wp_filesystem->get_contents(get_template_directory() . '/client/content/home.html')
+						'post_content'		=>  wp_remote_get(get_template_directory_uri() . '/client/content/home.html')['body']
 					),
 					'about'			=> array(
 						'comment_status'	=> 'closed',
 						'post_type'			=> 'page',
 						'post_title'		=> __('About', 'c9-starter'),
-						'post_content'		=>  $wp_filesystem->get_contents(get_template_directory() . '/client/content/about.html')
+						'post_content'		=>  wp_remote_get(get_template_directory_uri() . '/client/content/about.html')['body']
 					),
 					'setup'		=> array(
 						'comment_status'	=> 'closed',
 						'post_type'			=> 'page',
 						'post_title'		=> __('Setup', 'c9-starter'),
-						'post_content'		=>  $wp_filesystem->get_contents(get_template_directory() . '/client/content/setup.html')
+						'post_content'		=>  wp_remote_get(get_template_directory_uri() .  '/client/content/setup.html')['body']
 					),
 					'styleguide'		=> array(
 						'comment_status'	=> 'closed',
 						'post_type'			=> 'page',
 						'post_title'		=> __('Style Guide', 'c9-starter'),
-						'post_content'		=>  $wp_filesystem->get_contents(get_template_directory() . '/client/content/styleguide.html')
+						'post_content'		=>  wp_remote_get(get_template_directory_uri() .  '/client/content/styleguide.html')['body']
 					),
 					'blog'			=> array(
 						'post_content'			=> __('This page will show all of the blog posts once you have populated your database with blog items.', 'c9-starter')
