@@ -149,8 +149,8 @@ function c9starter_register_block_patterns()
 		$logo_path = $theme_directory_uri . '/client/client-assets/img/feather-logo-gradient-rb.svg';
 
 		$c9_coming_soon_core_content = "<!-- wp:cover {\"url\":\"" . esc_url($image_path_1) . "\",\"id\":2789,\"dimRatio\":80,\"overlayColor\":\"color-primary\",\"minHeight\":995,\"minHeightUnit\":\"px\",\"align\":\"full\"} -->
-<div class=\"wp-block-cover alignfull has-background-dim-80 has-color-primary-background-color has-background-dim\" style=\"background-image:url(" . esc_url($image_path_1) . ");min-height:995px\"><div class=\"wp-block-cover__inner-container\"><!-- wp:image {\"align\":\"center\",\"id\":3798,\"width\":51,\"height\":38,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->
-<div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized\"><img src=\"" . esc_url($logo_path) . "\" alt=\"\" class=\"wp-image-3798\" width=\"51\" height=\"38\"/></figure></div>
+<div class=\"wp-block-cover alignfull has-background-dim-80 has-color-primary-background-color has-background-dim\" style=\"background-image:url(" . esc_url($image_path_1) . ");min-height:995px\"><div class=\"wp-block-cover__inner-container\"><!-- wp:image {\"align\":\"center\",\"id\":3798,\"width\":\"42px\",\"height\":\"auto\",\"aspectRatio\":\"1\",\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"className\":\"is-resized\"} -->
+<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"" . esc_url($logo_path) . "\" alt=\"\" class=\"wp-image-3798\" style=\"aspect-ratio:1;width:42px;height:auto\"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {\"textAlign\":\"center\",\"level\":1} -->
@@ -162,7 +162,7 @@ function c9starter_register_block_patterns()
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\"} -->
-<p class=\"has-text-align-center has-small-font-size\">Click the button below to get notified via email when we're up and running</p>
+<p class=\"has-text-align-center has-small-font-size\"><mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-color-light-color\">Click the button below to get notified via email when we're up and running</mark></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {\"height\":10} -->
