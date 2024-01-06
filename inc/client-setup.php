@@ -194,7 +194,6 @@ function c9starter_register_block_patterns()
 			),
 		);
 
-
 		$c9_artist_promo_social_profiles_content = '<!-- wp:cover {"url":"' . esc_url($image_path_8) . '","id":2789,"dimRatio":60,"overlayColor":"color-primary","minHeight":995,"minHeightUnit":"px","align":"full","style":{"color":[]},"c9ContainerWidth":""} -->
 		<div class="wp-block-cover alignfull" style="min-height:995px"><span aria-hidden="true" class="wp-block-cover__background has-color-primary-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2789" alt="" src="' . esc_url($image_path_8) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"50px"} -->
 		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -226,7 +225,7 @@ function c9starter_register_block_patterns()
 		<!-- /wp:button -->
 		
 		<!-- wp:button {"backgroundColor":"c9music-dark-gray","textColor":"color-light","width":50,"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-color-dark-background-color has-text-color has-background wp-element-button" href="#tour-promo-video">Tour Promo Video</a></div>
+		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-c-9-music-dark-gray-background-color has-text-color has-background wp-element-button" href="#tour-promo-video">Tour Promo Video</a></div>
 		<!-- /wp:button -->
 		
 		<!-- wp:button {"width":50,"style":{"color":{"text":"#fefefe"}},"className":"is-style-outline"} -->
@@ -540,42 +539,42 @@ https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
 		<!-- /wp:spacer -->
 		
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"vertical"},"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|80"}}}} -->
-		<div class="wp-block-buttons" style="margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:button {"backgroundColor":"color-light","width":50,"style":{"color":{"text":"#181818"},"elements":{"link":{"color":{"text":"#181818"}}}}} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50"><a class="wp-block-button__link has-color-light-background-color has-text-color has-background has-link-color wp-element-button" href="#stream-album" style="color:#181818">Stream Album</a></div>
-		<!-- /wp:button -->
-		
-		<!-- wp:button {"textColor":"color-light","width":50,"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-text-color wp-element-button" href="#tour-dates">Tour Dates</a></div>
-		<!-- /wp:button -->
-		
-		<!-- wp:button {"backgroundColor":"c9music-dark-gray","textColor":"color-light","width":50,"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-color-dark-background-color has-text-color has-background wp-element-button" href="#tour-promo-video">Tour Promo Video</a></div>
-		<!-- /wp:button -->
-		
-		<!-- wp:button {"width":50,"style":{"color":{"text":"#fefefe"}},"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-text-color wp-element-button" href="#new-music-video" style="color:#fefefe">New Music Video</a></div>
-		<!-- /wp:button -->
-		
-		<!-- wp:button {"textColor":"color-light","width":50,"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-text-color wp-element-button" href="#">YouTube</a></div>
-		<!-- /wp:button -->
-		
-		<!-- wp:button {"width":50,"style":{"color":{"text":"#bb9b6eeb"}},"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-text-color wp-element-button" href="#" style="color:#bb9b6eeb">Instagram</a></div>
-		<!-- /wp:button -->
-		
-		<!-- wp:button {"width":50,"style":{"color":{"text":"#31ff00eb"}},"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-text-color wp-element-button" href="#" style="color:#31ff00eb">Spotify</a></div>
-		<!-- /wp:button -->
-		
-		<!-- wp:button {"width":50,"style":{"color":{"text":"#ffffffeb"}},"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-text-color wp-element-button" href="#" style="color:#ffffffeb">Apple Music</a></div>
-		<!-- /wp:button -->
-		
-		<!-- wp:button {"width":50,"style":{"color":{"text":"#f9ff00eb"}},"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-text-color wp-element-button" href="#" style="color:#f9ff00eb">Merch</a></div>
-		<!-- /wp:button --></div>
-		<!-- /wp:buttons --></div></div>
+<div class="wp-block-buttons" style="margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:button {"backgroundColor":"color-light","width":50,"style":{"color":{"text":"#181818"},"elements":{"link":{"color":{"text":"#181818"}}}}} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-50"><a class="wp-block-button__link has-color-light-background-color has-text-color has-background has-link-color wp-element-button" href="#stream-album" style="color:#181818">Stream Album</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"textColor":"color-light","width":50,"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-text-color wp-element-button" href="#tour-dates">Tour Dates</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"backgroundColor":"c9music-dark-gray","textColor":"color-light","width":50,"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-c-9-music-dark-gray-background-color has-text-color has-background wp-element-button" href="#tour-promo-video">Tour Promo Video</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"width":50,"style":{"color":{"text":"#fefefe"}},"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-text-color wp-element-button" href="#new-music-video" style="color:#fefefe">New Music Video</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"textColor":"color-light","width":50,"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-text-color wp-element-button" href="#">YouTube</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"width":50,"style":{"color":{"text":"#bb9b6eeb"}},"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-text-color wp-element-button" href="#" style="color:#bb9b6eeb">Instagram</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"width":50,"style":{"color":{"text":"#31ff00eb"}},"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-text-color wp-element-button" href="#" style="color:#31ff00eb">Spotify</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"width":50,"style":{"color":{"text":"#ffffffeb"}},"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-text-color wp-element-button" href="#" style="color:#ffffffeb">Apple Music</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"width":50,"style":{"color":{"text":"#f9ff00eb"}},"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-text-color wp-element-button" href="#" style="color:#f9ff00eb">Merch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
 		<!-- /wp:cover -->';
 
 		register_block_pattern(
@@ -695,7 +694,7 @@ https://open.spotify.com/album/4wNkTCWvNYJr8BL4obFo3y?si=YyBupJfnSi2lGBg_71TvGQ
 <div class="wp-block-columns has-background" style="background-color:#f3f3f3"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group -->
 <div class="wp-block-group"><div class="wp-block-group__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"fontSize":"large"} -->
-<h1 class="has-text-align-center has-large-font-size">♫ Episode 919 ♫<br><span class="has-inline-color has-color-secondary-background-color">Don\'t listen to Pew-Pew.m4a</span></h1>
+<h1 class="wp-block-heading has-text-align-center has-large-font-size">♫ Episode 919 ♫<br><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-success-color">Don\'t listen to Pew-Pew.m4a</mark></h1>
 <!-- /wp:heading -->
 
 <!-- wp:separator -->
@@ -756,31 +755,31 @@ https://open.spotify.com/album/4wNkTCWvNYJr8BL4obFo3y?si=YyBupJfnSi2lGBg_71TvGQ
 			),
 		);
 
-		$c9_events_schedule_core = '<!-- wp:cover {"url":"' . esc_url($image_path_2) . '","id":1895,"overlayColor":"c9music-black","focalPoint":{"x":"0.49","y":"0.67"},"minHeight":849,"minHeightUnit":"px","contentPosition":"bottom center","align":"full"} -->
-<div class="wp-block-cover alignfull has-color-dark-background-color has-background-dim has-custom-content-position is-position-bottom-center" style="background-image:url(' . esc_url($image_path_2) . ');min-height:849px;background-position:49% 67%"><div class="wp-block-cover__inner-container"><!-- wp:columns {"verticalAlignment":null} -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"66.67%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.67%"><!-- wp:image {"id":1955,"width":51,"height":38,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large aligncenter is-resized"><img src="' . esc_url($logo_path) . '" alt="" class="wp-image-1955" width="51" height="38"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"textAlign":"left","level":1,"fontSize":"large"} -->
-<h1 class="wp-block-heading has-text-align-center has-large-font-size"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-light-color">Event – OF THE CENTURY</mark><br><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-light-color">told you we\'d be back</mark></h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size has-inline-color has-color-light-color has-text-align-center">↓ SCROLL FOR THE DATES AND LISTEN TO THE JAMS WHILE YOU DO!</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"33.33%"} -->
-<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:embed {"url":"https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw","type":"rich","providerNameSlug":"spotify","allowResponsive":false,"responsive":true,"className":""} -->
-<figure class="wp-block-embed is-type-rich is-provider-spotify wp-block-embed-spotify"><div class="wp-block-embed__wrapper">
-https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
-</div></figure>
-<!-- /wp:embed --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div></div>
-<!-- /wp:cover -->
+		$c9_events_schedule_core = '<!-- wp:cover {"url":"' . esc_url($image_path_2) . '","id":1895,"overlayColor":"c9music-black","focalPoint":{"x":"0.49","y":"0.67"},"minHeight":849,"minHeightUnit":"px","contentPosition":"bottom center","align":"full","className":"has-color-dark-background-color has-background-dim","c9ContainerWidth":"container-fluid","c9Align":"full"} -->
+		<div class="wp-block-cover alignfull has-custom-content-position is-position-bottom-center has-color-dark-background-color has-background-dim alignfull container-fluid" style="min-height:849px"><span aria-hidden="true" class="wp-block-cover__background has-c-9-music-black-background-color has-background-dim-100 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1895" alt="" src="' . esc_url($image_path_2) . '" style="object-position:49% 67%" data-object-fit="cover" data-object-position="49% 67%"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
+		<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"66.67%"} -->
+		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.67%"><!-- wp:image {"id":1955,"width":"66px","height":"auto","aspectRatio":"1","sizeSlug":"large","linkDestination":"none","className":"is-resized aligncenter"} -->
+		<figure class="wp-block-image size-large is-resized aligncenter"><img src="' . esc_url($logo_path) . '" alt="" class="wp-image-1955" style="aspect-ratio:1;width:66px;height:auto"/></figure>
+		<!-- /wp:image -->
+		
+		<!-- wp:heading {"level":1,"className":"wp-block-heading has-text-align-center has-large-font-size"} -->
+		<h1 class="wp-block-heading has-text-align-center has-large-font-size"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-light-color">Event – OF THE CENTURY</mark><br><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-light-color">told you we\'d be back</mark></h1>
+		<!-- /wp:heading -->
+		
+		<!-- wp:paragraph {"className":"has-inline-color has-color-light-color has-text-align-center","fontSize":"small"} -->
+		<p class="has-inline-color has-color-light-color has-text-align-center has-small-font-size">↓ SCROLL FOR THE DATES AND LISTEN TO THE JAMS WHILE YOU DO!</p>
+		<!-- /wp:paragraph --></div>
+		<!-- /wp:column -->
+		
+		<!-- wp:column {"width":"33.33%"} -->
+		<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:embed {"url":"https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw","type":"rich","providerNameSlug":"spotify","allowResponsive":false,"responsive":true,"className":""} -->
+		<figure class="wp-block-embed is-type-rich is-provider-spotify wp-block-embed-spotify"><div class="wp-block-embed__wrapper">
+		https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
+		</div></figure>
+		<!-- /wp:embed --></div>
+		<!-- /wp:column --></div>
+		<!-- /wp:columns --></div></div>
+		<!-- /wp:cover -->
 
 <!-- wp:spacer {"height":17} -->
 <div style="height:17px" aria-hidden="true" class="wp-block-spacer"></div>
