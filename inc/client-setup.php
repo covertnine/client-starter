@@ -226,7 +226,7 @@ function c9starter_register_block_patterns()
 		<!-- /wp:button -->
 		
 		<!-- wp:button {"backgroundColor":"c9music-dark-gray","textColor":"color-light","width":50,"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-c-9-music-dark-gray-background-color has-text-color has-background wp-element-button" href="#tour-promo-video">Tour Promo Video</a></div>
+		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-color-dark-background-color has-text-color has-background wp-element-button" href="#tour-promo-video">Tour Promo Video</a></div>
 		<!-- /wp:button -->
 		
 		<!-- wp:button {"width":50,"style":{"color":{"text":"#fefefe"}},"className":"is-style-outline"} -->
@@ -255,35 +255,35 @@ function c9starter_register_block_patterns()
 		<!-- /wp:buttons --></div></div>
 		<!-- /wp:cover -->
 
-<!-- wp:cover {"url":"' . esc_url($video_path_1) . '","id":3697,"dimRatio":50,"backgroundType":"video","minHeight":995,"minHeightUnit":"px","align":"full","className":" mar20NT","c9ContainerWidth":""} -->
-<div class="wp-block-cover alignfull mar20NT" style="min-height:995px" id="new-music-video"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="' . esc_url($video_path_1) . '" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"color":{"background":"#ededed"}}} -->
-<div class="wp-block-group has-background" style="background-color:#ededed">
-
-<!-- wp:heading {"textAlign":"center","level":1,"style":{"color":{"text":"#222222"}}} -->
-<h1 class="wp-block-heading has-text-align-center has-text-color" style="color:#222222">Watch the Music Video</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"align":"center","textColor":"color-primary","fontSize":"small"} -->
-<p class="has-text-align-center has-color-primary-color has-text-color has-small-font-size"><mark style="background-color:rgba(0, 0, 0, 0);color:#010101" class="has-inline-color">Then peer pressure your neighbor\'s nephew to listen to the new song.</mark></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer {"height":"29px"} -->
-<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.youtube.com/watch?v=8qyP5abkoe4">Building Pages</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
-<!-- /wp:group --></div></div>
-<!-- /wp:cover -->
+		<!-- wp:cover {"url":"' . esc_url($video_path_1) . '","id":3697,"dimRatio":80,"overlayColor":"color-primary","backgroundType":"video","minHeight":995,"minHeightUnit":"px","align":"full","layout":{"type":"constrained","contentSize":"1140px"},"c9ContainerWidth":""} -->
+		<div class="wp-block-cover alignfull is-light" style="min-height:995px"><span aria-hidden="true" class="wp-block-cover__background has-color-primary-background-color has-background-dim-80 has-background-dim"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="' . esc_url($video_path_1) . '" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"color":{"background":"#ededed"}}} -->
+		<div class="wp-block-group has-background" style="background-color:#ededed">
+		
+		<!-- wp:heading {"textAlign":"center","level":1,"style":{"color":{"text":"#222222"}}} -->
+		<h1 class="wp-block-heading has-text-align-center has-text-color" style="color:#222222">Watch the video to learn more.</h1>
+		<!-- /wp:heading -->
+		
+		<!-- wp:paragraph {"align":"center","textColor":"color-primary","fontSize":"small"} -->
+		<p class="has-text-align-center has-color-primary-color has-text-color has-small-font-size">Watch the video below to learn how to build page templates with C9 Blocks</p>
+		<!-- /wp:paragraph -->
+		
+		<!-- wp:spacer {"height":"29px"} -->
+		<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- /wp:spacer -->
+		
+		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+		<div class="wp-block-buttons"><!-- wp:button -->
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.youtube.com/watch?v=8qyP5abkoe4">Building Pages</a></div>
+		<!-- /wp:button --></div>
+		<!-- /wp:buttons --></div>
+		<!-- /wp:group --></div></div>
+		<!-- /wp:cover -->
 
 <!-- wp:columns {"style":{"color":{"background":"#f3f3f3"},"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}}} -->
 <div class="wp-block-columns has-background" id="stream-album" style="background-color:#f3f3f3;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":1,"fontSize":"large"} -->
-<h1 class="wp-block-heading has-text-align-center has-large-font-size">♫ Listen to the new single ♫<br><span style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-c-9-music-mint-green-color">Stream-Me-Please.mp3</span></h1>
+<h1 class="wp-block-heading has-text-align-center has-large-font-size">♫ Listen to the new single ♫<br><span style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-secondary-background-color">Stream-Me-Please.mp3</span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"opacity":"css"} -->
@@ -296,15 +296,15 @@ function c9starter_register_block_patterns()
 
 <!-- wp:list -->
 <ul class=""><!-- wp:list-item -->
-<li class=""><strong><strong><span class="has-inline-color has-c-9-music-mint-green-color">✓</span></strong> Song Name</strong> - Track Title</li>
+<li class=""><strong><strong><span class="has-inline-color has-color-secondary-background-color">✓</span></strong> Song Name</strong> - Track Title</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li class=""><strong><span class="has-inline-color has-c-9-music-mint-green-color">✓</span> Song Name</strong> - Track Title</li>
+<li class=""><strong><span class="has-inline-color has-color-secondary-background-color">✓</span> Song Name</strong> - Track Title</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li class=""><strong><span class="has-inline-color has-c-9-music-mint-green-color">✓</span> Song Name</strong> - Track Title</li>
+<li class=""><strong><span class="has-inline-color has-color-secondary-background-color">✓</span> Song Name</strong> - Track Title</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -441,7 +441,7 @@ https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
 <div class="wp-block-group has-background" style="background-color:#f7f7f7"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"70%"} -->
 <div class="wp-block-column" style="flex-basis:70%"><!-- wp:heading {"level":1,"style":{"typography":{"fontSize":35}}} -->
-<h1 class="wp-block-heading" style="font-size:35px"><strong><span class="has-inline-color has-c-9-music-red-color">C9</span></strong> — Tour Block Pattern</h1>
+<h1 class="wp-block-heading" style="font-size:35px"><strong><span class="has-inline-color has-color-primary-color">C9</span></strong> — Tour Block Pattern</h1>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"23px"} -->
@@ -549,7 +549,7 @@ https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
 		<!-- /wp:button -->
 		
 		<!-- wp:button {"backgroundColor":"c9music-dark-gray","textColor":"color-light","width":50,"className":"is-style-outline"} -->
-		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-c-9-music-dark-gray-background-color has-text-color has-background wp-element-button" href="#tour-promo-video">Tour Promo Video</a></div>
+		<div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-outline"><a class="wp-block-button__link has-color-light-color has-color-dark-background-color has-text-color has-background wp-element-button" href="#tour-promo-video">Tour Promo Video</a></div>
 		<!-- /wp:button -->
 		
 		<!-- wp:button {"width":50,"style":{"color":{"text":"#fefefe"}},"className":"is-style-outline"} -->
@@ -692,10 +692,10 @@ https://open.spotify.com/album/4wNkTCWvNYJr8BL4obFo3y?si=YyBupJfnSi2lGBg_71TvGQ
 		);
 
 		$c9_podcast_embed_core = '<!-- wp:columns {"style":{"color":{"background":"#f3f3f3"}}} -->
-<div class="wp-block-columns has-background" style="background-color:#f3f3f3"><!-- wp:column {"verticalAlignment":"center","width":"70%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:70%"><!-- wp:group -->
+<div class="wp-block-columns has-background" style="background-color:#f3f3f3"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group -->
 <div class="wp-block-group"><div class="wp-block-group__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"fontSize":"large"} -->
-<h1 class="has-text-align-center has-large-font-size">♫ Episode 919 ♫<br><span class="has-inline-color has-c-9-music-mint-green-color">Don\'t listen to Pew-Pew.m4a</span></h1>
+<h1 class="has-text-align-center has-large-font-size">♫ Episode 919 ♫<br><span class="has-inline-color has-color-secondary-background-color">Don\'t listen to Pew-Pew.m4a</span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:separator -->
@@ -707,15 +707,15 @@ https://open.spotify.com/album/4wNkTCWvNYJr8BL4obFo3y?si=YyBupJfnSi2lGBg_71TvGQ
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong><strong><span class="has-inline-color has-c-9-music-mint-green-color">✓</span></strong> Song Name</strong> - Track Title</p>
+<p><strong><strong><span class="has-inline-color has-color-secondary-background-color">✓</span></strong> Song Name</strong> - Track Title</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong><span class="has-inline-color has-c-9-music-mint-green-color">✓</span> Song Name</strong> - Track Title</p>
+<p><strong><span class="has-inline-color has-color-secondary-background-color">✓</span> Song Name</strong> - Track Title</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong><span class="has-inline-color has-c-9-music-mint-green-color">✓</span> Song Name</strong> - Track Title</p>
+<p><strong><span class="has-inline-color has-color-secondary-background-color">✓</span> Song Name</strong> - Track Title</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -757,9 +757,9 @@ https://open.spotify.com/album/4wNkTCWvNYJr8BL4obFo3y?si=YyBupJfnSi2lGBg_71TvGQ
 		);
 
 		$c9_events_schedule_core = '<!-- wp:cover {"url":"' . esc_url($image_path_2) . '","id":1895,"overlayColor":"c9music-black","focalPoint":{"x":"0.49","y":"0.67"},"minHeight":849,"minHeightUnit":"px","contentPosition":"bottom center","align":"full"} -->
-<div class="wp-block-cover alignfull has-c-9-music-black-background-color has-background-dim has-custom-content-position is-position-bottom-center" style="background-image:url(' . esc_url($image_path_2) . ');min-height:849px;background-position:49% 67%"><div class="wp-block-cover__inner-container"><!-- wp:columns {"verticalAlignment":null} -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:image {"id":1955,"width":51,"height":38,"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-cover alignfull has-color-dark-background-color has-background-dim has-custom-content-position is-position-bottom-center" style="background-image:url(' . esc_url($image_path_2) . ');min-height:849px;background-position:49% 67%"><div class="wp-block-cover__inner-container"><!-- wp:columns {"verticalAlignment":null} -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"66.67%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.67%"><!-- wp:image {"id":1955,"width":51,"height":38,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large aligncenter is-resized"><img src="' . esc_url($logo_path) . '" alt="" class="wp-image-1955" width="51" height="38"/></figure>
 <!-- /wp:image -->
 
@@ -790,7 +790,7 @@ https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
 <div class="wp-block-group has-background" style="background-color:#f7f7f7"><div class="wp-block-group__inner-container"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"70%"} -->
 <div class="wp-block-column" style="flex-basis:70%"><!-- wp:heading {"level":1,"style":{"typography":{"fontSize":35}}} -->
-<h1 style="font-size:35px"><strong><span class="has-inline-color has-c-9-music-red-color">C9</span></strong> — Events Block Pattern</h1>
+<h1 style="font-size:35px"><strong><span class="has-inline-color has-color-primary-color">C9</span></strong> — Events Block Pattern</h1>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":23} -->
@@ -878,7 +878,7 @@ https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":6,"textColor":"c9music-black"} -->
-<h6 class="has-c-9-music-black-color has-text-color">December 16th, 2084</h6>
+<h6 class="has-has-color-dark-color has-text-color">December 16th, 2084</h6>
 <!-- /wp:heading -->
 
 <!-- wp:separator -->
@@ -1019,7 +1019,7 @@ https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":6,"textColor":"c9music-black"} -->
-<h6 class="has-c-9-music-black-color has-text-color">December 16th, 2084</h6>
+<h6 class="has-has-color-dark-color has-text-color">December 16th, 2084</h6>
 <!-- /wp:heading -->
 
 <!-- wp:separator -->
@@ -1115,29 +1115,29 @@ https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
 			),
 		);
 
-		$c9_watch_video_core = '<!-- wp:cover {"url":"' . esc_url($video_path_1) . '","id":3697,"dimRatio":80,"overlayColor":"color-primary","backgroundType":"video","minHeight":995,"minHeightUnit":"px","align":"full"} -->
-		<div class="wp-block-cover alignfull has-background-dim-80 has-color-primary-background-color has-background-dim" style="min-height:995px"><video class="wp-block-cover__video-background" autoplay muted loop playsinline src="' . esc_url($video_path_1) . '"></video><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"color":{"background":"#ededed"}}} -->
-		<div class="wp-block-group has-background" style="background-color:#ededed"><div class="wp-block-group__inner-container"><!-- wp:image {"align":"center","id":3798,"width":51,"height":38,"sizeSlug":"large","linkDestination":"none"} -->
-		<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="' . esc_url($logo_path) . '" alt="" class="wp-image-3798" width="51" height="38"/></figure></div>
+		$c9_watch_video_core = '<!-- wp:cover {"url":"' . esc_url($video_path_1) . '","id":3697,"dimRatio":80,"overlayColor":"color-primary","backgroundType":"video","minHeight":995,"minHeightUnit":"px","align":"full","layout":{"type":"constrained","contentSize":"1140px"},"c9ContainerWidth":""} -->
+		<div class="wp-block-cover alignfull is-light" style="min-height:995px"><span aria-hidden="true" class="wp-block-cover__background has-color-primary-background-color has-background-dim-80 has-background-dim"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="' . esc_url($video_path_1) . '" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"color":{"background":"#ededed"}}} -->
+		<div class="wp-block-group has-background" style="background-color:#ededed"><!-- wp:image {"id":1955,"width":51,"height":38,"sizeSlug":"large","linkDestination":"none"} -->
+		<figure class="wp-block-image size-large aligncenter is-resized"><img src="' . esc_url($logo_path) . '" alt="" class="wp-image-1955" width="51" height="38"/></figure>
 		<!-- /wp:image -->
 		
 		<!-- wp:heading {"textAlign":"center","level":1,"style":{"color":{"text":"#222222"}}} -->
-		<h1 class="has-text-align-center has-text-color" style="color:#222222">Watch the video to learn more.</h1>
+		<h1 class="wp-block-heading has-text-align-center has-text-color" style="color:#222222">Watch the video to learn more.</h1>
 		<!-- /wp:heading -->
 		
 		<!-- wp:paragraph {"align":"center","textColor":"color-primary","fontSize":"small"} -->
 		<p class="has-text-align-center has-color-primary-color has-text-color has-small-font-size">Watch the video below to learn how to build page templates with C9 Blocks</p>
 		<!-- /wp:paragraph -->
 		
-		<!-- wp:spacer {"height":29} -->
+		<!-- wp:spacer {"height":"29px"} -->
 		<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 		
-		<!-- wp:buttons {"align":"center"} -->
-		<div class="wp-block-buttons aligncenter"><!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link" href="https://www.youtube.com/watch?v=8qyP5abkoe4">Building Pages</a></div>
+		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+		<div class="wp-block-buttons"><!-- wp:button -->
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.youtube.com/watch?v=8qyP5abkoe4">Building Pages</a></div>
 		<!-- /wp:button --></div>
-		<!-- /wp:buttons --></div></div>
+		<!-- /wp:buttons --></div>
 		<!-- /wp:group --></div></div>
 		<!-- /wp:cover -->';
 
@@ -1290,7 +1290,7 @@ https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center">C9 Work Core Blocks Typography</h2>
+<h2 class="has-text-align-center">C9 Core Blocks Typography</h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns -->
@@ -1319,28 +1319,28 @@ https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
 <h6 class="has-text-align-center">Heading Six</h6>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"textAlign":"center","level":1,"textColor":"c9music-faded-red"} -->
-<h1 class="has-text-align-center has-c-9-music-faded-red-color has-text-color">Heading One</h1>
+<!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center has-has-color-primary-color has-text-color"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-light-gray-color">Heading One</mark></h1>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"textAlign":"center","textColor":"c9music-black"} -->
-<h2 class="has-text-align-center has-c-9-music-black-color has-text-color">Heading Two</h2>
+<!-- wp:heading {"textAlign":"center","level":2} -->
+<h2 class="wp-block-heading has-text-align-center"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-yellow-color">Heading Two</mark></h2>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"textAlign":"center","level":3,"textColor":"c9music-dark-gray"} -->
-<h3 class="has-text-align-center has-c-9-music-dark-gray-color has-text-color">Heading Three</h3>
+<!-- wp:heading {"textAlign":"center","level":3} -->
+<h3 class="wp-block-heading has-text-align-center"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-faded-green-color">Heading Three</mark></h3>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"textAlign":"center","level":4,"textColor":"c9music-red"} -->
-<h4 class="has-text-align-center has-c-9-music-red-color has-text-color">Heading Four</h4>
+<!-- wp:heading {"textAlign":"center","level":4} -->
+<h4 class="wp-block-heading has-text-align-center"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-orange-color">Heading Four</mark></h4>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"textAlign":"center","level":5,"textColor":"c9music-mint-green"} -->
-<h5 class="has-text-align-center has-c-9-music-mint-green-color has-text-color">Heading Five</h5>
+<!-- wp:heading {"textAlign":"center","level":5} -->
+<h5 class="wp-block-heading has-text-align-center"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-alt-green-color">Heading Five</mark></h5>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textAlign":"center","level":6} -->
-<h6 class="has-text-align-center">Heading Six</h6>
+<h6 class="wp-block-heading has-text-align-center"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-color-blue-color">Heading Six</mark></h6>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -1401,20 +1401,12 @@ https://open.spotify.com/album/1EFnZuLUzXx0B6ZsL9aqum?si=mGx9OSaiSJ2T2GlAojjwDw
 <hr class="wp-block-separator"/>
 <!-- /wp:separator -->
 
-<!-- wp:separator {"color":"c9music-faded-red"} -->
-<hr class="wp-block-separator has-text-color has-background has-c-9-music-faded-red-background-color has-c-9-music-faded-red-color"/>
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator is-style-wide"/>
 <!-- /wp:separator -->
 
-<!-- wp:separator {"color":"c9music-mint-green","className":"is-style-wide"} -->
-<hr class="wp-block-separator has-text-color has-background has-c-9-music-mint-green-background-color has-c-9-music-mint-green-color is-style-wide"/>
-<!-- /wp:separator -->
-
-<!-- wp:separator {"color":"c9music-red","className":"is-style-dots"} -->
-<hr class="wp-block-separator has-text-color has-background has-c-9-music-red-background-color has-c-9-music-red-color is-style-dots"/>
-<!-- /wp:separator -->
-
-<!-- wp:separator {"color":"c9music-black","className":"is-style-dots"} -->
-<hr class="wp-block-separator has-text-color has-background has-c-9-music-black-background-color has-c-9-music-black-color is-style-dots"/>
+<!-- wp:separator {"className":"is-style-dots"} -->
+<hr class="wp-block-separator is-style-dots"/>
 <!-- /wp:separator -->
 
 <!-- wp:spacer -->
