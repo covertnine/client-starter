@@ -876,7 +876,7 @@ https://open.spotify.com/album/4wNkTCWvNYJr8BL4obFo3y?si=YyBupJfnSi2lGBg_71TvGQ
 <p><strong>Author Name</strong><br>Author Title</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":6,"textColor":"c9music-black"} -->
+<!-- wp:heading {"level":6} -->
 <h6 class="has-has-color-dark-color has-text-color">December 16th, 2084</h6>
 <!-- /wp:heading -->
 
@@ -1017,7 +1017,7 @@ https://open.spotify.com/album/4wNkTCWvNYJr8BL4obFo3y?si=YyBupJfnSi2lGBg_71TvGQ
 <p><strong>Author Name</strong><br>Author Title</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":6,"textColor":"c9music-black"} -->
+<!-- wp:heading {"level":6} -->
 <h6 class="has-has-color-dark-color has-text-color">December 16th, 2084</h6>
 <!-- /wp:heading -->
 
